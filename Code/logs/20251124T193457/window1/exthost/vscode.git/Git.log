@@ -1,0 +1,36 @@
+2025-11-24 19:35:01.348 [info] [main] Log level: Info
+2025-11-24 19:35:01.348 [info] [main] Validating found git in: "git"
+2025-11-24 19:35:01.348 [info] [main] Using git "2.52.0" from "git"
+2025-11-24 19:35:01.348 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-24 19:35:01.348 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-24 19:35:01.348 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [3ms]
+2025-11-24 19:35:01.348 [info] [Model][openRepository] Opened repository (path): /home/pancake/Documents/part-2-team-28
+2025-11-24 19:35:01.348 [info] [Model][openRepository] Opened repository (real path): /home/pancake/Documents/part-2-team-28
+2025-11-24 19:35:01.348 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-24 19:35:01.348 [info] > git config --get commit.template [6ms]
+2025-11-24 19:35:01.348 [info] > git rev-parse --show-toplevel [34ms]
+2025-11-24 19:35:01.358 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-24 19:35:01.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/refactor1 refs/remotes/refactor1 [12ms]
+2025-11-24 19:35:01.366 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-24 19:35:01.385 [info] > git status -z -uall [8ms]
+2025-11-24 19:35:01.385 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-24 19:35:01.390 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-24 19:35:01.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/refactor1 refs/remotes/refactor1 [12ms]
+2025-11-24 19:35:01.429 [info] > git rev-parse --show-toplevel [39ms]
+2025-11-24 19:35:01.434 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-24 19:35:03.466 [info] > git config --get --local branch.refactor1.vscode-merge-base [2037ms]
+2025-11-24 19:35:03.472 [info] > git config --get commit.template [2051ms]
+2025-11-24 19:35:03.472 [info] > git fetch [2182ms]
+2025-11-24 19:35:03.537 [info] > git check-ignore -v -z --stdin [57ms]
+2025-11-24 19:35:03.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [66ms]
+2025-11-24 19:35:03.591 [info] > git merge-base refs/heads/refactor1 refs/remotes/origin/refactor1 [47ms]
+2025-11-24 19:35:03.599 [info] > git config --get commit.template [63ms]
+2025-11-24 19:35:03.601 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% c4bca69efa9ebc07858963a00326394ef4757fe9...refs/remotes/origin/refactor1 -- [2ms]
+2025-11-24 19:35:03.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/refactor1 refs/remotes/refactor1 [42ms]
+2025-11-24 19:35:03.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/refactor1 refs/remotes/refactor1 [135ms]
+2025-11-24 19:35:04.224 [info] > git status -z -uall [20ms]
+2025-11-24 19:35:04.225 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-11-24 19:35:05.413 [info] > git show --textconv :frontend/src/data/projectData.json [10ms]
+2025-11-24 19:35:05.415 [info] > git ls-files --stage -- frontend/src/data/projectData.json [3ms]
+2025-11-24 19:35:05.428 [info] > git cat-file -s 8c1ddde9e422baf43338157ebabdf76ef0aa5a8b [4ms]
+2025-11-24 19:35:05.471 [info] > git blame --root --incremental c4bca69efa9ebc07858963a00326394ef4757fe9 -- frontend/src/data/projectData.json [9ms]

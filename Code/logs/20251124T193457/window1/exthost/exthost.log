@@ -1,0 +1,18 @@
+2025-11-24 19:35:00.282 [info] Extension host with pid 16834 started
+2025-11-24 19:35:00.282 [info] Skipping acquiring lock for /home/pancake/.config/Code/User/workspaceStorage/fb4f06d306f8455d99cf11f33faafd2f.
+2025-11-24 19:35:00.542 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-24 19:35:00.570 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-24 19:35:00.588 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-24 19:35:00.598 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-24 19:35:00.611 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-24 19:35:00.667 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-11-24 19:35:00.798 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-24 19:35:01.111 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-24 19:35:01.119 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-24 19:35:01.173 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-24 19:35:01.337 [info] Eager extensions activated
+2025-11-24 19:35:01.435 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 19:35:01.437 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 19:35:01.465 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-24 19:35:05.887 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-24 19:35:05.951 [info] Extension host with pid 16834 exiting with code 0

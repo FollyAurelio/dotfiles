@@ -1,0 +1,19 @@
+2025-10-26 20:49:22.362 [info] [main] Log level: Info
+2025-10-26 20:49:22.362 [info] [main] Validating found git in: "git"
+2025-10-26 20:49:22.362 [info] [main] Using git "2.51.1" from "git"
+2025-10-26 20:49:22.362 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-26 20:49:22.362 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-26 20:49:22.362 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [96ms]
+2025-10-26 20:49:22.362 [info] [Model][openRepository] Opened repository (path): /home/pancake/Documents/TeamProject28
+2025-10-26 20:49:22.362 [info] [Model][openRepository] Opened repository (real path): /home/pancake/Documents/TeamProject28
+2025-10-26 20:49:22.362 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-26 20:49:22.362 [info] > git rev-parse --show-toplevel [75ms]
+2025-10-26 20:49:22.362 [info] > git config --get commit.template [83ms]
+2025-10-26 20:49:22.396 [info] > git fetch [3140ms]
+2025-10-26 20:49:22.396 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/fireyss/Team28.git/'
+2025-10-26 20:49:22.519 [info] > git rev-parse --show-toplevel [148ms]

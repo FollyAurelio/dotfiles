@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [],
+  "sessionId": "452ff24b-4437-421c-b651-191bcfd6cb66",
+  "creationDate": 1762070616408,
+  "isImported": false,
+  "lastMessageDate": 1762070616408
+}

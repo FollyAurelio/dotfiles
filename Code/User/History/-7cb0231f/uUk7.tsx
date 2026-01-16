@@ -1,0 +1,71 @@
+"use client"
+import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
+import FourmData from "@/data/forumData.json"
+import {
+  Card,
+  CardContent,
+} from "@/components/ui/card"
+import {
+  type ChartConfig,
+  ChartContainer,
+  ChartTooltip,
+  ChartTooltipContent,
+} from "@/components/ui/chart"
+
+export const description = "A multiple bar chart"
+const chartData = FourmData.topics.map(t => ({ topic: t, QA: FourmData.posts.filter(p => p.topic === t && p.type == "Q&A").length, Informational: FourmData.posts.filter(p => p.topic === t && p.type === "Informational").length }))
+
+
+
+const chartConfig = {
+  Informational: {
+    label: "Informational",
+    color: "var(--chart-1)",
+  },
+  QA: {
+    label: "QA",
+    color: "var(--chart-2)",
+  },
+} satisfies ChartConfig
+
+export function ChartBarMultiple() {
+  return (
+    <div className="m-2">
+      <Card className="overflow-x-auto w-full">
+        <CardContent className="">
+          <div className="">
+            <ChartContainer config={chartConfig}>
+              <BarChart
+                accessibilityLayer
+                data={chartData}
+                width={Math.max(chartData.length * 80, 800)}
+                height={100}
+                margin={{ top: 20, right: 30, left: 50, bottom: 60 }}
+                 barCategoryGap="20%" // reduce space between bar groups
+          barGap={2}           // reduce space between individual bars
+              >
+                <CartesianGrid vertical={false} />
+                <XAxis
+                  dataKey="topic"
+                  tickLine={false}
+                  axisLine={false}
+                  tickMargin={10}
+                  interval={0} 
+                  angle={-30} 
+                  textAnchor="end"
+                  
+                />
+                <ChartTooltip
+                  cursor={false}
+                  content={<ChartTooltipContent indicator="dashed" />}
+                />
+                <Bar dataKey="Informational" fill="var(--color-Informational)" radius={5} />
+                <Bar dataKey="QA" fill="var(--color-QA)" radius={5} />
+              </BarChart>
+            </ChartContainer>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}

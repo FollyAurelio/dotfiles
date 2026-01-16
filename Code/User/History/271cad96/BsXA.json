@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Cover page",
+    "assignee": "Aurelio",
+    "status": "In Review",
+    "label": "18",
+    "urgnecy": "5",
+    "deadline": "Eddie Lake"
+  },
+  {
+    "id": 2,
+    "title": "Table of contents",
+    "assignee": "Table of contents",
+    "status": "Done",
+    "label": "29",
+    "urgnecy": "24",
+    "deadline": "Eddie Lake"
+  },
+  {
+    "id": 3,
+    "title": "Executive summary",
+    "assignee": "Narrative",
+    "status": "Done",
+    "label": "10",
+    "urgnecy": "13",
+    "deadline": "Eddie Lake"
+  },
+  {
+    "id": 4,
+    "title": "Technical approach",
+    "assignee": "Narrative",
+    "status": "Done",
+    "label": "27",
+    "urgnecy": "23",
+    "deadline": "Jamik Tashpulatov"
+  },
+  {
+    "id": 5,
+    "title": "Design",
+    "assignee": "Narrative",
+    "status": "In Process",
+    "label": "2",
+    "urgnecy": "16",
+    "deadline": "Jamik Tashpulatov"
+  },
+  {
+    "id": 6,
+    "title": "Capabilities",
+    "assignee": "Narrative",
+    "status": "In Process",
+    "label": "20",
+    "urgnecy": "8",
+    "deadline": "Jamik Tashpulatov"
+  },
+  {
+    "id": 7,
+    "title": "Integration with existing systems",
+    "assignee": "Narrative",
+    "status": "In Process",
+    "label": "19",
+    "urgnecy": "21",
+    "deadline": "Jamik Tashpulatov"
+  },
+  {
+    "id": 8,
+    "title": "Innovation and Advantages",
+    "assignee": "Narrative",
+    "status": "Done",
+    "label": "25",
+    "urgnecy": "26",
+    "deadline": "Assign reviewer"
+  },
+  {
+    "id": 9,
+    "title": "Overview of EMR's Innovative Solutions",
+    "assignee": "Technical content",
+    "status": "Done",
+    "label": "7",
+    "urgnecy": "23",
+    "deadline": "Assign reviewer"
+  },
+  {
+    "id": 10,
+    "title": "Advanced Algorithms and Machine Learning",
+    "assignee": "Narrative",
+    "status": "Done",
+    "label": "30",
+    "urgnecy": "28",
+    "deadline": "Assign reviewer"
+  },
+  {
+    "id": 11,
+    "title": "Adaptive Communication Protocols",
+    "assignee": "Narrative",
+    "status": "Done",
+    "label": "9",
+    "urgnecy": "31",
+    "deadline": "Assign reviewer"
+  }
+  ]

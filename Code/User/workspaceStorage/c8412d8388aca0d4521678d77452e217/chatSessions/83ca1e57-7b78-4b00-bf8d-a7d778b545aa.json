@@ -1,0 +1,296 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_38694761-8153-41e3-baf4-b813e6f0962f",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 34
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 35
+            },
+            "text": " Cannot find name 'FileterFn'.",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix Cannot find name 'FileterFn'."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Add the correct FilterFn type import and fix the misspelled type name to FilterFn.\n\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/pancake/Documents/TeamProject28/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Generating edits...",
+            "uris": {}
+          }
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "import type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState,\n  FilterFn,\n} from \"@tanstack/react-table\"\n",
+                "range": {
+                  "startLineNumber": 40,
+                  "startColumn": 1,
+                  "endLineNumber": 47,
+                  "endColumn": 1
+                }
+              },
+              {
+                "text": "    filterFn: \"multipleIncludes\" as FilterFn<Task>,\n",
+                "range": {
+                  "startLineNumber": 347,
+                  "startColumn": 1,
+                  "endLineNumber": 348,
+                  "endColumn": 1
+                }
+              }
+            ]
+          ],
+          "state": {
+            "sha1": "89a13fe1488d9b64c8f520cd066b5fe29dea2f11",
+            "applied": 2
+          }
+        }
+      ],
+      "responseId": "response_ffeccca0-5846-4b81-b83a-0832fda1e2d8",
+      "result": {
+        "timings": {
+          "firstProgress": 12262,
+          "totalElapsed": 13860
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Add the correct FilterFn type import and fix the misspelled type name to FilterFn.\n\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx\n---FIND\n```\nimport type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState\n} from \"@tanstack/react-table\"\n```\n---REPLACE\n```\nimport type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState,\n  FilterFn,\n} from \"@tanstack/react-table\"\n```\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx\n---FIND\n```\n    filterFn: \"multipleIncludes\" as FileterFn<Task>,\n```\n---REPLACE\n```\n    filterFn: \"multipleIncludes\" as FilterFn<Task>,\n```\n---COMPLETE",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "d5bea82f-77d5-40ad-a742-329346ec595c",
+              "statefulMarker": "utJEcSG9jvqfOhetFsQCQxcLsfxHDAzTxQaNMLn1nlIrXxO+u/2l+qLKsw8gvdq49BPo5KBMiCbKAeOhx57t0tCsilDl5x3XeqDVpxshMGkuIB5jBxHr2ZqMSgr2OIgS5TjAc7yeOwPdMJ6ZuDm3Zvi7sCR5LLvCTek5tyIpNSGGZlJaetOYVEp90voYDW6rY0SBLuFbPLwAICYOEq6IsAwKYkgWqsneqv6VfSGHNO7gVsgYtmiTj9FISbm4oHmpW9TxJ2qw/UhPsfKIntaqigzj1aL3M4mf6ZO3YjinLbz2RpHdTKWYOCubF9V8ZmXdriQJ4SbxHgbPMkH8KjhngSVK/DxFvW24mkyjHkuhDValqC0qHfgNS5ssfmMai60YY2bNQxynHh9fXBtIJlESdsERQING",
+              "thinking": {
+                "id": "/LD3cfim9hJ31/yHIBkWWNGhyZZUGVAX1I+HJ2+sDGI4CWMkvshVhxm5e7WRMMoc9qRNd2c6WRQL8LiQ0j8zmSpRWiZuaWG0nGaRqjR2vhR6OMfDOElQGemuPQfTG4XXiUpE/hBvfv9Bjbx9lWhL9gafDQvUUgp086zdQ6/VpxWo0u0abVURdZnqIH8mgjRY5G+4592CJGMhW+KyemuNo83D9Q6roOQGJjNLuaf8uSRgYGvYEaWGc8lcNdaW+0P4yWRs1mFm6/O1SC9agYufWoJjY5wU1EKqZsu5F2eyMKqjCJc6kL84WsUPNBfTSsgN8z/ue6apSWqZFld70AxLzStURLPpUwEVnHu4qSa4jzQtoiUPnHppCNzIzCcEBxrH0LFDQeIOACWSLRrtJUAMinXiiQ==",
+                "text": [],
+                "encrypted": "dLZtmG+EuZ8w1kqF7XGVJojOOpPpoOMkfVK22FAqkqR937DlrtkbygGqEh5oVVpydiQRWHOir/rfiWOD+zfNwfOnswrOyQdVfmaQIhpD/CGBhLjlI3DClLoPRS/rXo1zcyZyRbEk0Q+Bh3cKzGVmqoO8nGRwkWGj09fTLrj2zwfHcuJ4Lo5ZUCu2dk0qJal8vp4OnoTIGPViiKFfRRXwBVLgX6mciKoFtLmfZzvrWD9BELErZAl33kcXM28WGxWLyym2fWmoAz5eYOLhzNNi5w82cpPDf0HrM1bDrKFeBlg0ie/XbsYl1AO4CEuDSWgw0ZNbiAzbdtYtMn0FTriGU30Mi9snTz5HBz+IZHw/fTyzuTSrdoHTwCnE6xTF0WdclPq4bD4LEMnndTpEzEE7cPaDE+ASx6wyoRqiBPP0xmB9DtSTd9uuN9eQ6aDTdwLY8uCYCx8aQODbZiANil3Zf/Qy1fKHCuEaDmJE7YKmlXBvFWthx8szDoUKoYvmr2qyXfyGVEdVc1Rm3qCpHpkS3kvOI+LfOFYbnXcL+pg+s5M4DUfjjU1K3cnToYWtXqR/LswF64aSyEiXSxVZfdqovXgCqFWpCjSpnyoeRPXWLhTMLY44Ezn6PdOiFrtz3bNSyNxaXtXa3LRmC97zCE7Tr75N/ERdAg4BIzDZeK2yCxmY7IutnVSNedaBo8s/BnhcH7NBd20WMtnobQe5EXOLx7vpahATIy3Fw15dE5Afvs6rZtuiTbiYd79NBzfDWMiFQYCtb8lSlpjyjbmvvwjaUdCBGpgW3zlHxZCGfKUsc5GuSPiYEAawU6Y4fAe08FGR8IdnD5sE5fjVY7E4hOAZZCGUT7imhiIbljOS/zODyHmJObzrjxpEc5g/IDJO87PxZArbRvSucBrdUETEhwojPRIoF+SwkNA/zk0RWgKxD5kxQ67zObFjvd8Lxh5aC8e/SGyAC3cNgct0DzMkBwskT8SJ0rmhnBc5hgieV2b5VWCGXFit0n+knopOVSTFvk1qWRKeL236VcuVVhF4gA2pkqav4LhY8156JeFftCE720WIfpDJo2El78SCqW9DasdEy8PEO5hxKUoY0k9VdnH1JcC70QFUwMYfb4QXayDUCdfeg6QBTMIeXV/eu5Z8BDq0Ymq8lYroG/PKoUe7QTn9JpNssz93sxffpE2VzzBH0A1um/PQTGv2q8GFiWORuQ+wttn0ivLJQgHSIxa8hYgKyE2c6M5YFsQg7NDTzxOMDhJKWeq7tfAoqR42rkbKhIAhW76Fd4yiTFHrVDyEhVAAOfhoBpC5kmbONlcKSPbTkIaltU8G88q1e/AnAbQNmik4fkHLa6sA8TsGY4/QPd2h/8rW7T3HJAuC+CDZ4c/QeuRuNk+25xfXDAxAtYQxOP2VkT8H5NPqiXcLMim6Gh4a5PnEPcq8Nob63RGR5RGHrc9jam/g+384T+f82ZUNl4TLEkdSCWuZE5pLL7Bu8E9hT/aoWZR6Nv2xJWpFUoj2ELLgWyZRuVAZL/Qr/mUAw7AeACteENpe492fSd2tUYTSg6GXfwPp4b3kRWcTfXwkWcQwX5jwuOg9T1XcNzfuDcRnQ5WE1bt8z3IFHpLgjODdvczDCr1wKpVDkJbDe66bRWT8zBnlft0uyZS8IVRlww6bFaM3j32xIX7mBsk0xszNlLfpCdS99q5aPo4lg+0yOBecJZZIQ7Bz0dKZcp0msb7Jip4NQuElaPyqo+D3Q068oa2wgU7XO3G9Y+svEM99ZFs0RLhDBqWcoNvWGh9NoFFnmznqVGNlEBxvC/eQuXnF4PLvI2ganX3lINpdEuoZBXSRleNf40bWq5zodwz02Uv33gURz4FnrKzzRA9QA8oqb3G5veUoI+jCiKRGoc1d682cxLkoGgNbdZI+3COQ4HKk6m0YhruRAIu9tApcC6bZKZio4MNzl3MhY1tKb9+6MJenxcr1O9ozLPliIokB7k8EtWqeJms+UGCZIOww/ZJEPKE+6YgSn+M+uI0i3tSay5HQ++lfXzJ016sjGQGypbTrtRE4gRVvGezvidm9Q+NPcB6InFh2IGxFHTWnbV71qc967WINhVPiXTWI8vXSjVKI+BoPIEuypnR45WNOW1IlcYH5X0UXKK4pPdO/72jKB0lFXHlDd7Dw8Owg3amyXrvEChC6HaQAuHpiF6GljLl3mtd+w/UBJn+OF7F+lXh9gX7b+Eg61mSL1Lsr9sEaGntpSJf8BpFT8RqKTSC8XcSaeba98i97s2TCL78JypObwmmgtYvAZRF2NHQmKd8hbSXD1TS84eDX/AaaSP+/sWFPMf7E+N/z+N/ToiUxzgMiSJQFXyIs8uHBxoYorVcO0RsY1Wkqh2gUSKu9Dkc0YDrTPvLOaQexIZEjwocWR42gVK1EeWb9R3T8Ve1pcXQLUfqUF/Ovrl2by+plBUP2xmXokaO5fqaT1GjSL7fnJvJF4tXPUoAF+NSa8s37F7bOCEI9EetgXcBhtuvFM1dVZXgvIfl6eoK9q7nkO5mjD67QU0TKBaWAaJLZG63sActR4EiFprjYwt7VSRKLWzGaiGNQ91yMiQPEOGZlScLwhLt6a87yXAqofsaJQFSGEqMbOruEjZ4bjA7u6Js94PinfzFBA+VrNeqseOh4wgeMK9GqyVCkGU1nyo+egNqx0fb2LhWp4OrMAZAroV1EOuKsPTGFa5Klm97zARNbXavoAw0oc4II7rVK3hShVV/blWw+2/BcIF6+mVqby/CWmbP4mi+aol1Is/o5uewvjr+y72fyeL1SXcbnP2lwfHqA6wNe9mV9D2K+qlE/u1tqK8CvetavSbHgdnORcWciqBROU8V+s5wopcY+VjDbVVUkPCMUsEOzJkbNvI3bVVHQkIwy6tRhGskxBFZ5+C/eD1MGZnX3bzn7+cEVv6Eq10G0++b7vAGrN92IMHdRnYGszLrHiOuZRpiKysGYapbkMeUSVkcjhuIrfdcgrJ8djGeidUV7diPZpGgYfzLHgzb+78I4C+MnG/a+gWmiVKZpJexcw3IDOxCvsJ9O2XWL0L7NEDru8v5DSuEWTePLlVuixD4qMUKN79bXSHpo0cR+i7WVMz5GxmGKU3IOSKtM+cvz0vDT/j/TqHNOwmkxDtMAwPM4wjwbK0HlxnP4YmBENI1zMMxl6PD47/2inCMMvFFDi31XVNFL+4fxe35DkLB5fgp8F4ksS/YRQsKKRqjt9dI1wG4i63SzVbEfbPIeIyBuPER4qNJQpyOa+ttEJSFT2GRlu66wL0gwCnc5Mdf35hPr8xFzQWx4Yo4CNARFkXuIbwVUn06qi5fvl8JLvn6zOqLg8g9rphYJ73GukWm1M/EwjP3dffb1MrHdtQ54Tqv7bC7+PGtvUz3RDc0wQguI4S1T3q5IOPy9ZVSXH5jerF2MwYtxCddVP3aJQ8HW81aB3GIbtVc2OieWSiLF/57i2AB4xtsYaSfdWwOidUtyXpL34nusQDy7O0/37srKm/4AJuW/AA7cD9U8fvFrFNhKS4LJ3KQLa04HoOvTJYDBiddLxfxH6/nNYfFoWxJa9vEEOKmvXMBdxLALxOqZj96lfAwdQyHL5GnDn3FPDubEM7d0jMPg8JvSfEwYt27tR6pVQEpccPa7mxBxtRGsAipdqw1fOTvSm4pUBnNzNbb8zso+6HdXJSiSbza/e72BvSUvIUZG1QMwQHH/ak0B+raNSLwlm9UoyR0LMejvLvXYfx2OoRpMjZ6hN+Z0ZujWhENyM4NSLufar9Y0hQ4pt5/iU3BJXB5aw6Ni1TgoCQirQAPoifq3gX9hf8Tw6a/aOBS2Y6bk7xZ1IeOLrCMj6ondGxtgxFH7pAg/FCSvE95cFs7UuM8VfVmH9OSBKbc4UAeXqxAhQEKBEeIHc3lNzft+5YOsjBDPX6fy7MI+S6cXWznPv0r+IPr5bOlQ0rYgR3AvSyrdRRZ54yP7otYvrGmjpQU3BOdxgZ9l4W3LG457m9QVIugG9GdGSpiqhhEyA0ntJ9464ZUBjvaZ4KaBch0zkIcbB8bklX+ssYyzDS/6MlcbU2mNdaKlLmi/+uTDWB9b85glMINTsa5QPwhpb+WORm/+37zItm/R5d6Y9NvNVAY1azaAkQ1X5qT8+MVEmMBmCamiCDDHPOSzA1PapL9vdFKcZGoDzzDukkM/co15Gs8htqA2EnB37w3CniK43wM47z36X50ORVd45W6G+8fAC9KnzGTGb6eWmmOgBqlsduzi7Bm7PWxTmV8Z21Y4odDhe+O8yBuJ8di+0hkj7KkTylJ/WBMuCNugh0vmSrmpwzRFkNbFDQ9FHFugsa4Uv4s9RAfQ5Vyeo4a2AF962Zv7E6/3KQkqoKDJoooRazq9Ih3EaF/UQ/8+et3qmbINJ/FH2WsVKSSjccNzVeWmsgbLmk6X+gduM5/xwhrZGqhGBisDR2DWk6nMNMEUGNrLRsT35l1DSS+YZ/yTww8jFzMhMM+8HtJa5MOGkPAXaBQkDpZWeSLpnARYm3FyY+LGrtJw37udYbxnHRInXm85U/xWyjTz9+AcHQcQgo3TykG2lm7QTSQlim5KRy2kyTjW9/1n4xmL20rnjFZxI6YCl3nwwiVvdVjZ3dXBCHmdqFqjvp6R1dVbNEd8ggibNs7/qpelJpwn9nqZ4ebmzyvRaEfLHD8biKJaz2gzaSZftWgVZeVCXa9M+N95otjdR0r8O1EXRDtEWJaeNkVuhDPxVW29IUdHLkxDQaplsPfd27nsRciqcYGuvk7XYRMygF4Qvk4YAjfHaskk8yuQ7uxuRXbdnYZC+JRyVxmHZwqpshckjzvfUBS+SzZnp2rGC8oSgiSOSMuTkVOJaPJ2oG8Qm0YQ6dMU6BUIR8Osc2J23zxnMCIcWUjLZG/ZJwsEjscv+6osEOzoYlFZH0m2g6eyvaxRF/bOEyfOLEdJtrsz2G3cE2PW6nEj12pyYgBYKPI5HBORNfrqjXkVSctlYY6I9fsUOImfa3+bIWjJg7LJzOSz3KVjETaFQnFfskHnqonDpVPmrEi7zC+U9BRbbwNLFFNqROmqDy+iMPYusio4Ax3jfnQJAq1HN3PTj5BObOQ11lxP0+S5vohmCC9Dmi5cupSfg4RG+5BFePoYvClurLOmLHu9bB9r4SMeRIFuSBBylTKQDAJ7sgSymqULdvS8oymGVNKh/oHkh3uKSVt2RfK7uiouhPC+gW4nozv2yKI7I7eymc4+l7c3o1rMR3yCMDsWuUqo3td1Gt5TRV4/BfFkKj5cdvBrhFRXcBpotVwQ8UNIvCKPJLBUy1utqpqVa40ARNnghtoPiNsjPmS16Tb2QdZmMMwFrjN/YE3Zko96bEoIz6jlAGnQyPhpG2mkSICLypuIMGDo+VsMwQPR5WEUCzsEiDdsNtAiaaeTxxiHUHMpYt3VYygdnZ47o5zNj3MN67BkbXqKluZ1vVhbBtX5MTaHRPJc8D03AnJtmXOgOoIXcxugK1LbaE595hlZ4duhGOAClOzzJNcgsn/JsY2My6NSsQybvsA5BlWkRv25bdxNVYcBVXrtzznI7FZkyzkjsEPHjGdm9ffBcUzbCaVLe95rKQM8zST+jT9SV0nTAj8kprccvXhIG34zzG+mHoc4gxhsarN5SlQ5iaVOeL2ZeiXKCyxosh+gQOMx3zGbib8zH/NZySCl8YE/Ao2/esNXTPnDI5NQ+dnVSZ9QgJc1+JbjOZ3t4WneApaXrmhHToNGEQnrRDKYzj+fjl0EGIHPPU05HZh0C86owqZV0iwfxsfSP5UP7DmzpNf1MG9H/zIjlO/pgi7JROosU8AUVyr6NCO+yJpRhQFz2+RwVRcJAdGJEbdqh00vmEb9wjFtfrheSZzhGcfvzFnUFbfM5I+brl9AVAyk/1uJvF//DwJniH708GflbDAfWhs3RiAIR9n9Rk/87mAZHgHo8VB7MLFHSqetnFbW9Hm9isGeLtaGigt/jQn4wVORIwXl86AkvXYEPYuHx0zZm/ZpgnwBW01x0eQbqLlix204nBDKvcrYin5tr4lQpQcn2fgw6iBOzEljSVbIv3Hi4jmrH0rs+vuSm8XgtVn/MRQozIaxF8T4lP7m95JMOW638YLWyfW5k+5sleanaXb04MZDBaPV34j3mYrB9Nh5JuVjqsbWZ/tQ5pBrpA0X4RGvQo06DngeXJQxM7x/XagsclrqI1KxCSE/4hWczruzxZsdEi815NKpM5ml9VGjv09APgFknz95RfVxV5NsyeXKEhoxAQudsAXiH9AAuaQfCukqGuCynuRxWJsQLxZy06NgH5mTAxQ7KhZ84scMwRrDTcRX6SUrxhw/JNpSnxSM0S9dsSrm8Owdv8wYt2hdIjLce7JraRHW4AqsOKsZgvRmbgKcTXIWDbW8OnXleevUtTNuGWLaOoJzWzgy9TpFLGJBEqUnHgfBkd8w1o0bXz8BdeUdbTzEkKZTtzRpxCHFOnFRRB+1lK/IqexliPvd0lsHQRu+Sl27Vb8tjd6wIxwPSjg/orW/4+EqyiDZdWznO2EBizBJScZ7v9q6wqcCcRf9+C+MUZNFeAxbxT7cESXkFMaWQKUYFH2JJLsoVX6u4fuX97SJVGWiRS8KltfM0SXtpeqxKV0855vKPELJAmghx5abc7jYxSNordC3zPjwjcoXWZ9X7P3UO9AiEO3bHYrJ05vIzvh/RNOyJ0Y7m0LjqkEkbyqMiZ2547l3WaH26Zp+Pw7iMyKr1/1RZhUbiNB8GxE21/QIZCXF/30jJ4slejoe0Pu80TwUtArPVAXqBLbbPd8dsqf1qXebRtjMcSsY8Gz9OwNYG0z+HKopcXFujyF6MP9HVoh2EpqD/8n3JX5Hs5Y0fN0O8BuYXtB0rrgSlL6vEyjzVVo9tXv9CtqefmQtrz9T8B1ZLqsbO/uED2cEBLNYLDt1IHScMXE/VPRPmif++ov6Pbyc+1znBpCHI+X6WEir78qJPry8eP/e+iDf3t5Vod343TaXxPPNAc43R1+bDw/plKJq8tbmbUqn+2jWxa/Ezzs8umixw6qRnQwhLbs2SAVoE+vgS9OkQUjeB9r3kdEhr5OVhTt0dDsXluG1onEb5w8L8SCuPc166misTFyB1jOR5C6mriT1dFHTblJmXohVaGcYDFuuU2RCVZPwcuVeHgYP3StTMR4XDo3tgPFU3pdNWnO6WIG5GpmN6coGKsAL1HaFa4FnpE1r86B1oOnF3U8oON1/UIUHp48yn9Nq1TE/dDfIikDJx2p+MPHhECS9PQBFxbyXe/36B0M9ZQplX5+WcCB/lC4/5lma6gRIQMzeCXVK7cYWXMWiCwPvyTXH9zsbLL6h/Opo99+Uo9E/z3aV",
+                "tokens": 640
+              }
+            }
+          ],
+          "modelMessageId": "c942f37b-44b2-4f44-a7c0-eb18fb83055b",
+          "responseId": "eb2600f7-0afb-41f2-903c-c4cfc4b17113",
+          "sessionId": "b33bb177-9a8b-492b-8e6d-8702c12aa034",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1761421053165,
+      "modelId": "copilot/gpt-5-mini"
+    }
+  ],
+  "sessionId": "83ca1e57-7b78-4b00-bf8d-a7d778b545aa",
+  "creationDate": 1761421053061,
+  "isImported": false,
+  "lastMessageDate": 1761421053165
+}

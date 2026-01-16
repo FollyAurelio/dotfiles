@@ -1,0 +1,64 @@
+[2025-Jun-25 21:23:14.864 +01:00][13352:13352][info ] Logging initialized
+[2025-Jun-25 21:49:48.902 +01:00][ 1293: 1293][info ] Logging initialized
+[2025-Jun-25 21:55:51.300 +01:00][ 1913: 1913][info ] Logging initialized
+[2025-Jun-25 21:55:54.115 +01:00][ 1913: 1913][info ] Logging initialized
+[2025-Jun-27 08:51:50.886 +01:00][ 1088: 1088][info ] Logging initialized
+[2025-Jun-27 08:54:29.372 +01:00][ 1063: 1063][info ] Logging initialized
+[2025-Jun-27 11:25:11.706 +01:00][ 1100: 1100][info ] Logging initialized
+[2025-Jun-27 11:29:41.358 +01:00][ 1096: 1096][info ] Logging initialized
+[2025-Jun-28 11:46:37.614 +01:00][ 1658: 1658][info ] Logging initialized
+[2025-Jun-29 17:02:57.095 +02:00][ 1069: 1069][info ] Logging initialized
+[2025-Jun-30 09:02:51.992 +02:00][ 1071: 1071][info ] Logging initialized
+[2025-Jun-30 09:37:13.910 +02:00][ 1088: 1088][info ] Logging initialized
+[2025-Jun-30 11:49:39.431 +02:00][ 1095: 1095][info ] Logging initialized
+[2025-Jun-30 12:00:30.973 +02:00][ 2988: 2988][info ] Logging initialized
+[2025-Jun-30 12:01:36.389 +02:00][ 1076: 1076][info ] Logging initialized
+[2025-Jul-01 00:31:46.037 +02:00][14217:14217][info ] Logging initialized
+[2025-Jul-08 11:50:39.898 +02:00][ 1283: 1283][info ] Logging initialized
+[2025-Jul-08 11:53:43.967 +02:00][ 1101: 1101][info ] Logging initialized
+[2025-Jul-13 18:40:49.469 +02:00][ 1095: 1095][info ] Logging initialized
+[2025-Jul-13 19:34:23.896 +02:00][ 1249: 1249][info ] Logging initialized
+[2025-Jul-14 20:27:34.004 +02:00][ 1098: 1098][info ] Logging initialized
+[2025-Jul-14 20:28:52.498 +02:00][ 1082: 1082][info ] Logging initialized
+[2025-Jul-22 12:54:32.339 +02:00][ 1289: 1289][info ] Logging initialized
+[2025-Jul-30 13:08:07.195 +02:00][ 1278: 1278][info ] Logging initialized
+[2025-Jul-30 13:11:42.316 +02:00][ 1101: 1101][info ] Logging initialized
+[2025-Aug-11 00:16:54.519 +02:00][ 1348: 1348][info ] Logging initialized
+[2025-Aug-25 13:06:09.202 +02:00][ 1403: 1403][info ] Logging initialized
+[2025-Aug-31 23:01:31.364 +02:00][ 1270: 1270][info ] Logging initialized
+[2025-Sep-03 14:15:55.734 +02:00][ 2082: 2082][info ] Logging initialized
+[2025-Sep-20 18:40:00.429 +02:00][ 1252: 1252][info ] Logging initialized
+[2025-Oct-07 13:13:27.800 +02:00][ 1413: 1413][info ] Logging initialized
+[2025-Oct-09 20:08:56.579 +02:00][80824:80824][info ] Logging initialized
+[2025-Oct-14 19:56:01.735 +02:00][ 1318: 1318][info ] Logging initialized
+[2025-Oct-26 20:48:08.166 +01:00][ 1312: 1312][info ] Logging initialized
+[2025-Nov-24 19:03:13.442 +01:00][ 1289: 1289][info ] Logging initialized
+[2025-Dec-15 12:38:34.161 +01:00][ 1324: 1324][info ] Logging initialized
+[2025-Dec-20 16:51:35.194 +01:00][ 1537: 1537][info ] Logging initialized
+[2025-Dec-21 17:13:20.061 +01:00][ 1256: 1256][info ] Logging initialized
+[2025-Dec-21 17:27:44.999 +01:00][ 7617: 7617][info ] Logging initialized
+[2025-Dec-21 17:33:02.275 +01:00][ 1340: 1340][info ] Logging initialized
+[2025-Dec-21 17:40:10.528 +01:00][ 1268: 1268][info ] Logging initialized
+[2025-Dec-21 17:41:44.369 +01:00][ 1287: 1287][info ] Logging initialized
+[2025-Dec-21 17:45:15.547 +01:00][ 1440: 1440][info ] Logging initialized
+[2025-Dec-21 17:50:47.725 +01:00][ 1275: 1275][info ] Logging initialized
+[2025-Dec-21 18:06:06.484 +01:00][ 1263: 1263][info ] Logging initialized
+[2025-Dec-21 18:12:54.526 +01:00][ 3165: 3165][info ] Logging initialized
+[2025-Dec-21 18:14:23.021 +01:00][ 1389: 1389][info ] Logging initialized
+[2025-Dec-21 18:18:53.720 +01:00][ 3075: 3075][info ] Logging initialized
+[2025-Dec-21 18:20:09.611 +01:00][ 1322: 1322][info ] Logging initialized
+[2025-Dec-21 18:24:30.774 +01:00][ 1279: 1279][info ] Logging initialized
+[2025-Dec-21 18:37:05.684 +01:00][ 1275: 1275][info ] Logging initialized
+[2025-Dec-23 11:06:13.743 +01:00][ 1275: 1476][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 75.154035ms
+[2025-Dec-23 11:06:17.358 +01:00][ 1275: 1476][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 59.205639ms
+[2025-Dec-23 11:14:46.052 +01:00][ 1490: 1490][info ] Logging initialized
+[2025-Dec-23 11:30:02.102 +01:00][ 1265: 1265][info ] Logging initialized
+[2025-Dec-23 11:39:05.198 +01:00][ 1424: 1424][info ] Logging initialized
+[2025-Dec-27 23:48:07.538 +01:00][ 1424: 1458][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 50.664749ms
+[2025-Dec-29 21:56:15.437 +01:00][ 1424: 1458][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 50.301295ms
+[2026-Jan-04 22:54:53.385 +01:00][ 1424: 1458][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 55.037232ms
+[2026-Jan-06 06:27:16.053 +01:00][ 1424: 1458][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 59.647944ms
+[2026-Jan-06 06:27:17.174 +01:00][ 1424: 1458][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 51.175219ms
+[2026-Jan-07 13:22:18.688 +01:00][ 1259: 1259][info ] Logging initialized
+[2026-Jan-09 17:32:40.066 +01:00][ 1259: 1436][info ] Long Queue Time for store 'Utils'. Task 'SetObservedGamesCallback2' executed for 58.759773ms
+[2026-Jan-11 00:33:03.312 +01:00][ 1396: 1396][info ] Logging initialized

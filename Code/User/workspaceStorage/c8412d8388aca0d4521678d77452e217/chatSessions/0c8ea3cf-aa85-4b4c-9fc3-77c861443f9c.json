@@ -1,0 +1,296 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_f16c6f33-efdc-490e-af41-3ae309d8913c",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 34
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 35
+            },
+            "text": " Cannot find name 'FileterFn'.",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix Cannot find name 'FileterFn'."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Add the correct FilterFn type import and fix the misspelled FileterFn to FilterFn.\n\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/pancake/Documents/TeamProject28/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Generating edits...",
+            "uris": {}
+          }
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "import type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState,\n  FilterFn,\n} from \"@tanstack/react-table\"\n",
+                "range": {
+                  "startLineNumber": 40,
+                  "startColumn": 1,
+                  "endLineNumber": 47,
+                  "endColumn": 1
+                }
+              },
+              {
+                "text": "    cell: ({ row }) => {\n      let colour = \"green\";\n      if (row.original.urgency === \"High\")\n        colour = \"red\";\n      if (row.original.urgency === \"Medium\")\n        colour = \"orange\";\n      if (row.original.urgency === \"Low\")\n        colour = \"green\";\n      return <div style={{ color: colour }} className=\"w-fit\">{row.original.urgency}</div>\n    },\n    filterFn: \"multipleIncludes\" as FilterFn<Task>,\n  },\n",
+                "range": {
+                  "startLineNumber": 337,
+                  "startColumn": 1,
+                  "endLineNumber": 349,
+                  "endColumn": 1
+                }
+              }
+            ]
+          ],
+          "state": {
+            "sha1": "89a13fe1488d9b64c8f520cd066b5fe29dea2f11",
+            "applied": 3
+          }
+        }
+      ],
+      "responseId": "response_047aff0a-f102-4250-8717-7e755ce06753",
+      "result": {
+        "timings": {
+          "firstProgress": 15424,
+          "totalElapsed": 24232
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Add the correct FilterFn type import and fix the misspelled FileterFn to FilterFn.\n\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx\n---FIND\n```\nimport type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState\n} from \"@tanstack/react-table\"\n```\n---REPLACE\n```\nimport type {\n  ColumnDef,\n  ColumnFiltersState,\n  Row,\n  SortingState,\n  VisibilityState,\n  FilterFn,\n} from \"@tanstack/react-table\"\n```\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/components/todo-table.tsx\n---FIND\n```\n    cell: ({ row }) => {\n      let colour = \"green\";\n      if (row.original.urgency === \"High\")\n        colour = \"red\";\n      if (row.original.urgency === \"Medium\")\n        colour = \"orange\";\n      if (row.original.urgency === \"Low\")\n        colour = \"green\";\n      return <div style={{ color: colour }} className=\"w-fit\">{row.original.urgency}</div>\n    },\n    filterFn: \"multipleIncludes\" as FileterFn<Task>,\n  },\n```\n---REPLACE\n```\n    cell: ({ row }) => {\n      let colour = \"green\";\n      if (row.original.urgency === \"High\")\n        colour = \"red\";\n      if (row.original.urgency === \"Medium\")\n        colour = \"orange\";\n      if (row.original.urgency === \"Low\")\n        colour = \"green\";\n      return <div style={{ color: colour }} className=\"w-fit\">{row.original.urgency}</div>\n    },\n    filterFn: \"multipleIncludes\" as FilterFn<Task>,\n  },\n```\n---COMPLETE",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "2c2b4e68-6e47-40a1-ad95-0be0f9d0ea4f",
+              "statefulMarker": "LIbKItStE4+nzo4vZSTLOI0UQXRHHeqMEQTW/+9xfi2FO5jqTTIl8xHggWkohBmpQkmNLvMrpchvxzbmK1bdDoEhdBqINfjsLQiu3EIvma2Pyd304BT+M0Gp8rv79LuHJZ6OyWlHo1zj2AS/f5CAb1iPALtXXxPi/1pC9xFAo889Wp1jAf3NOJPrDDHzvn0vqhYJXZHbE4ToMMbXHYI0OBWRerMxoTBiOLSb51cjF2yPVnKqAwveWe/hJHXZhWqAVG0+xW7M9jOY83QDcBylE1k+rFsK1Rs4Up7J8zxXx/wfVagTb0VurvHCL3SplyJ03bjZmEOZWFWyH8O9UXTU4Lf59REIk0hQuW+hI9/ARTFW3LyO0xe9lvH1axmjCp0/JJ+Rfhi4bxSD/RvZCvPQdrBuZudE",
+              "thinking": {
+                "id": "HmNAnu+QzOB6QNQxPwvkoNN4IYGm6FVOsbeBO1aSrkKZaRSajxnDYShO+5lPVp4AX3UBv/UkGJeJ+EFgZmiYq2bzykDY0v3XDMJzu7jyTyyYfDfVHvGPMwv9Jx08jATAIUW87r3tN8E8xTn8M1CgUPk2d5JYs2ORQ5zsHH1UrsKwWp5/htiqvxooaHnoBw0zVs5KHVwbS6Q+dwjTPfNEtHu74kCh/oejlXDMCYoMs8WzRlXVK0kUVvvoQ4ZEl5MH/fI44obbMEaCF0GHqS+Tl7BxETqdaUfvMJVjxM2h2YLhlLPPqRlDwNe6kqEM0TwwsXD4FQcDtymZIThUiwh75ayQWR5AVzprcY/1B0ZGRKgef04feS7ClGobTBnfS+fZe5yJkJMqKZfMKXE3M4EnzdTHZw==",
+                "text": [],
+                "encrypted": "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",
+                "tokens": 640
+              }
+            }
+          ],
+          "modelMessageId": "50d2e27d-a5c4-4634-b978-6e9002a8b97f",
+          "responseId": "2180a299-8c2a-41fd-bde6-de1a571b60e6",
+          "sessionId": "c8be0906-7f8a-4d4f-95fd-d16587cfb90b",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1761421089123,
+      "modelId": "copilot/gpt-5-mini"
+    }
+  ],
+  "sessionId": "0c8ea3cf-aa85-4b4c-9fc3-77c861443f9c",
+  "creationDate": 1761421089060,
+  "isImported": false,
+  "lastMessageDate": 1761421089123
+}

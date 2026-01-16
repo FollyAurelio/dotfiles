@@ -1,0 +1,21 @@
+2025-11-17 18:14:31.306 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-17 18:14:31.306 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-17 18:14:31.306 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-17 18:14:31.306 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-17 18:14:31.306 [info] Logged in as FollyAurelio
+2025-11-17 18:14:31.306 [info] Using the Electron fetcher.
+2025-11-17 18:14:31.707 [info] Got Copilot token for FollyAurelio
+2025-11-17 18:14:31.707 [info] Copilot Chat: 0.32.5, VS Code: 1.105.1
+2025-11-17 18:14:31.720 [info] activationBlocker from 'languageModelAccess' took for 931ms
+2025-11-17 18:14:31.769 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-17 18:14:31.769 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-17 18:14:31.783 [info] Registering default platform agent...
+2025-11-17 18:14:31.784 [info] activationBlocker from 'conversationFeature' took for 1000ms
+2025-11-17 18:14:31.799 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-17 18:14:32.138 [info] Fetched model metadata in 930ms 0e3c46be-4f56-4fdc-910f-3ad7ed389819
+2025-11-17 18:14:32.213 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-17 18:14:32.214 [info] ccreq:3995adf1.copilotmd | markdown
+2025-11-17 18:14:32.324 [info] Fetched auto model in 106ms.
+2025-11-17 18:14:37.672 [info] Refetch model metadata: Succeeded in 438ms 12b9c5f2-d81c-45ad-9ff5-7722810495ee (CB75:15C3E:C61FB0:DDC6FF:691B57D9) using electron-fetch with status 200.
+2025-11-17 18:14:38.182 [info] Refetch model metadata: Succeeded in 510ms 34f9a8b9-df41-434e-b920-0924afea0cb2 (2441:A6ABC:27D09E:2D06A5:691B57DA) using node-http with status 200.
+2025-11-17 18:14:38.592 [info] Refetch model metadata: Succeeded in 410ms ddf4e568-9b22-4b21-a5e3-38686233bac4 (047D:B71C9:28AE25:2DDEB4:691B57DA) using node-fetch with status 200.

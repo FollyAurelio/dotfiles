@@ -1,0 +1,505 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_7013c881-4b0a-4491-b756-5cb6d14cd398",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 5
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 6
+            },
+            "text": " ",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_f934b2a7-0120-4cb2-98d3-f5977a58bbf9",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 3905
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "73162c00-dd95-4137-acf8-1a2af0b1a285"
+            }
+          ],
+          "modelMessageId": "85543c8d-8737-4fc5-84dd-6aa47ec0ff42",
+          "responseId": "61e8f074-6ebc-4306-8102-f72fe0b74fad",
+          "sessionId": "8bec7f9b-2dee-41d8-bf8c-ce1dda0f7a88",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1760973894044,
+      "modelId": "copilot/gpt-5-mini"
+    },
+    {
+      "requestId": "request_8f29f946-f2b8-4d9e-95bd-dea3a2232632",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 47
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 48
+            },
+            "text": "make the url in To-do List go to dashboard/todo",
+            "kind": "text"
+          }
+        ],
+        "text": "make the url in To-do List go to dashboard/todo"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/app-sidebar.tsx",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/app-sidebar.tsx",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/app-sidebar.tsx",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "    {",
+                "range": {
+                  "startLineNumber": 41,
+                  "startColumn": 1,
+                  "endLineNumber": 41,
+                  "endColumn": 26
+                }
+              }
+            ],
+            [
+              {
+                "text": "      title: \"To-do List\",",
+                "range": {
+                  "startLineNumber": 42,
+                  "startColumn": 1,
+                  "endLineNumber": 42,
+                  "endColumn": 16
+                }
+              }
+            ],
+            [
+              {
+                "text": "      url: \"/dashboard/todo\",",
+                "range": {
+                  "startLineNumber": 43,
+                  "startColumn": 1,
+                  "endLineNumber": 43,
+                  "endColumn": 31
+                }
+              }
+            ],
+            [
+              {
+                "text": "      icon: IconClipboardData,",
+                "range": {
+                  "startLineNumber": 44,
+                  "startColumn": 1,
+                  "endLineNumber": 44,
+                  "endColumn": 6
+                }
+              }
+            ],
+            [
+              {
+                "text": "    },",
+                "range": {
+                  "startLineNumber": 45,
+                  "startColumn": 1,
+                  "endLineNumber": 45,
+                  "endColumn": 5
+                }
+              }
+            ],
+            [
+              {
+                "text": "  ],",
+                "range": {
+                  "startLineNumber": 46,
+                  "startColumn": 1,
+                  "endLineNumber": 46,
+                  "endColumn": 2
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n}",
+                "range": {
+                  "startLineNumber": 46,
+                  "startColumn": 5,
+                  "endLineNumber": 46,
+                  "endColumn": 5
+                }
+              }
+            ],
+            []
+          ],
+          "state": {
+            "sha1": "1e6ffbc73719285458082319a5e3b362cb5fa3f1",
+            "applied": 1
+          }
+        }
+      ],
+      "responseId": "response_aca155d1-7151-4460-a717-ec60a25de8dc",
+      "result": {
+        "timings": {
+          "totalElapsed": 6359
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "```tsx\nconst data = {\n  user: {\n    name: \"adam\",\n    email: \"a-jones@make-it-all.co.uk\",\n    avatar: \"/avatars/shadcn.jpg\",\n  },\n  navMain: [\n    {\n      title: \"Dashboard\",\n      url: \"#\",\n      icon: IconHome,\n    },\n    {\n      title: \"Projects\",\n      url: \"#\",\n      icon: IconListDetails,\n    },\n    {\n      title: \"Forums\",\n      url: \"#\",\n      icon: IconBubbleText,\n    },\n    {\n      title: \"To-do List\",\n      url: \"/dashboard/todo\",\n      icon: IconClipboardData,\n    },\n  ],\n}\n```",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "5955ef17-e89b-4b1c-8aaf-38c72e6b0ece"
+            }
+          ],
+          "modelMessageId": "5da374fb-8021-42e8-b27c-5beaede1f412",
+          "responseId": "bbb303d5-eb6d-4eb9-8903-9a94c317698a",
+          "sessionId": "8bec7f9b-2dee-41d8-bf8c-ce1dda0f7a88",
+          "agentId": "github.copilot.editor"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1760973920873,
+      "modelId": "copilot/gpt-5-mini"
+    }
+  ],
+  "sessionId": "870214eb-f814-4f99-b427-2e60a6705469",
+  "creationDate": 1760973893901,
+  "isImported": false,
+  "lastMessageDate": 1760973920873
+}

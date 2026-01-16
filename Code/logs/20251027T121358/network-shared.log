@@ -1,0 +1,57 @@
+2025-10-29 16:45:25.355 [error] #993: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 16:50:35.369 [error] #994: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 16:55:45.383 [error] #995: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 17:00:48.430 [error] #996: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_ADDRESS_UNREACHABLE
+2025-10-29 17:05:56.708 [error] #997: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CONNECTION_RESET
+2025-10-29 17:11:06.720 [error] #998: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 17:16:06.817 [error] #999: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:21:06.856 [error] #1000: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:26:06.893 [error] #1001: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:31:06.926 [error] #1002: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:36:06.973 [error] #1003: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:41:07.033 [error] #1005: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:46:07.092 [error] #1006: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:51:07.198 [error] #1007: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 17:56:07.234 [error] #1008: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:01:07.264 [error] #1009: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:06:07.393 [error] #1010: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:11:07.472 [error] #1011: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:16:07.497 [error] #1012: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:21:07.526 [error] #1013: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:26:07.553 [error] #1014: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:31:07.599 [error] #1015: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:36:07.626 [error] #1016: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:41:07.651 [error] #1017: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:46:07.681 [error] #1018: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:51:07.708 [error] #1020: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 18:56:07.738 [error] #1021: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:01:07.768 [error] #1022: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:06:07.821 [error] #1023: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:11:07.855 [error] #1024: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:16:07.885 [error] #1025: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:21:07.952 [error] #1026: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:26:07.979 [error] #1027: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:31:08.079 [error] #1028: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:36:10.399 [error] #1029: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CONNECTION_RESET
+2025-10-29 19:41:20.412 [error] #1030: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 19:46:20.452 [error] #1031: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:51:20.477 [error] #1032: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 19:56:20.504 [error] #1033: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:01:20.550 [error] #1034: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:06:20.597 [error] #1035: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:11:30.607 [error] #1036: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 20:16:30.621 [error] #1037: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:21:30.706 [error] #1038: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:26:30.742 [error] #1039: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:31:40.746 [error] #1040: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 20:36:40.769 [error] #1041: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:41:40.811 [error] #1042: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:46:40.943 [error] #1043: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:51:40.974 [error] #1044: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 20:56:41.004 [error] #1045: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 21:01:42.536 [error] #1046: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 21:06:42.576 [error] #1047: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 21:11:42.619 [error] #1048: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 21:16:42.713 [error] #1049: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-10-29 21:21:52.726 [error] #1050: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-29 21:41:54.772 [error] #1054: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CERT_COMMON_NAME_INVALID

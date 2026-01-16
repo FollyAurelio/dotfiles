@@ -1,0 +1,21 @@
+2025-11-26 17:36:17.008 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-26 17:36:17.008 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-26 17:36:17.008 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-26 17:36:17.008 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-26 17:36:19.931 [info] Logged in as FollyAurelio
+2025-11-26 17:36:19.935 [info] Using the Electron fetcher.
+2025-11-26 17:36:20.545 [info] Got Copilot token for FollyAurelio
+2025-11-26 17:36:20.545 [info] Copilot Chat: 0.33.2, VS Code: 1.106.2
+2025-11-26 17:36:20.557 [info] activationBlocker from 'languageModelAccess' took for 1467ms
+2025-11-26 17:36:20.608 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-26 17:36:20.608 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-26 17:36:20.622 [info] Registering default platform agent...
+2025-11-26 17:36:20.623 [info] activationBlocker from 'conversationFeature' took for 1543ms
+2025-11-26 17:36:20.648 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-26 17:36:20.991 [info] Fetched model metadata in 1218ms b0569379-4b7e-4450-b16f-f0681605a773
+2025-11-26 17:36:21.043 [warning] [RateLimit] REST rate limit remaining: 0, agents/swe/custom-agents/lborocs/part-2-team-28?exclude_invalid_config=true
+2025-11-26 17:36:21.073 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-26 17:36:21.074 [info] ccreq:8b6fa9ce.copilotmd | markdown
+2025-11-26 17:36:26.270 [info] Refetch model metadata: Succeeded in 180ms 6bf67142-f115-4136-928d-79578fdd8621 (29D0:15EE74:BC5298:D27391:69272C5D) using electron-fetch with status 200.
+2025-11-26 17:36:26.635 [info] Refetch model metadata: Succeeded in 365ms 6064183b-ad92-4f1d-8306-69bc53c05bcc (9A5F:20D248:C17ED3:D798EE:69272C63) using node-http with status 200.
+2025-11-26 17:36:27.004 [info] Refetch model metadata: Succeeded in 369ms a490c7f5-40a9-4568-bc06-46a68685b6bc (34A2:131890:BEC045:D4DC31:69272C63) using node-fetch with status 200.

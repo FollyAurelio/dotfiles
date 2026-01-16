@@ -1,0 +1,20 @@
+2025-11-26 17:36:14.006 [info] Started local extension host with pid 48767.
+2025-11-26 17:36:16.233 [info] MCP Registry configured: https://api.mcp.github.com
+2025-11-26 17:36:16.271 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-26 17:36:16.427 [error] [Extension Host] (node:48767) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-11-26 17:36:16.427 [error] [Extension Host] (node:48767) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+2025-11-26 17:36:16.934 [info] Auto updating outdated extensions. github.copilot-chat
+2025-11-26 17:36:17.166 [info] [perf] Render performance baseline is 174ms
+2025-11-26 17:36:19.191 [error] chatParticipant must be declared in package.json: claude-code
+2025-11-26 17:53:16.006 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at zg.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:29263)
+    at zg.updateChildren (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:434:29044)
+    at Ple.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2628:33771)
+    at I.C (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at I.D (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at I.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at FDe.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:570:2730)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:13950
+    at Array.map (<anonymous>)
+    at Td.setVisible (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:596:13941)

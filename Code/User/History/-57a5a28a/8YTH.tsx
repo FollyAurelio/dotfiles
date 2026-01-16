@@ -1,0 +1,29 @@
+import { useParams } from "react-router-dom";
+import type { ForumData } from "@/types/ForumTypes"
+import forumData from "@/data/forum-data.json"
+import accountsData from "@/data/account-data.json"
+import type { User } from "@/types/AccountTypes"
+
+import { Navigate } from "react-router"
+
+import { useAuth } from "@/context/auth-context"
+import SinglePost from "@/components/forum/single-post"
+
+export default function PostPage() {
+    const user = useAuth().user!
+    const forum = forumData as ForumData
+
+    const { postID, edit } = useParams<{ postID: string, edit: string }>();
+
+    const post = forum.posts.find(p => p.id === Number(postID))
+
+    if (!post) return (
+        <Navigate to=".." />
+    )
+
+    const users = accountsData as User[]
+
+    return (
+        <SinglePost post={post} users={users} currentUser={user} editing={edit === "edit"} />
+    )
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "email": "alice@make-it-all.co.uk",
+    "password": "password123",
+    "avatarUrl": "https://i.pravatar.cc/150?imgz1"
+  },
+  {
+    "id": 2,
+    "email": "bob@make-it-all.co.uk",
+    "password": "qwerty456",
+    "avatarUrl": "https://i.pravatar.cc/150?img=2"
+  },
+  {
+    "id": 3,
+    "email": "charlie@make-it-all.co.uk",
+    "password": "charlie789",
+    "avatarUrl": "https://i.pravatar.cc/150?img=3"
+  }
+]

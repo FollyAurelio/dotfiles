@@ -1,0 +1,21 @@
+2025-11-04 22:03:49.865 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-11-04 22:03:49.865 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-11-04 22:03:49.865 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-11-04 22:03:49.865 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-11-04 22:03:50.311 [info] Logged in as FollyAurelio
+2025-11-04 22:03:50.314 [info] Using the Electron fetcher.
+2025-11-04 22:03:50.624 [info] Got Copilot token for FollyAurelio
+2025-11-04 22:03:50.624 [info] Copilot Chat: 0.32.4, VS Code: 1.105.1
+2025-11-04 22:03:50.636 [info] activationBlocker from 'languageModelAccess' took for 749ms
+2025-11-04 22:03:50.707 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-11-04 22:03:50.707 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-11-04 22:03:50.725 [info] Registering default platform agent...
+2025-11-04 22:03:50.726 [info] activationBlocker from 'conversationFeature' took for 845ms
+2025-11-04 22:03:50.749 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-11-04 22:03:51.036 [info] Fetched model metadata in 1122ms f0ac52f7-2377-4722-8d78-411a224d58a0
+2025-11-04 22:03:51.040 [info] Latest entry: ccreq:latest.copilotmd
+2025-11-04 22:03:51.041 [info] ccreq:be609d9a.copilotmd | markdown
+2025-11-04 22:03:51.166 [info] Fetched auto model in 123ms.
+2025-11-04 22:03:56.411 [info] Refetch model metadata: Succeeded in 352ms 896a263e-455f-40e4-a28a-e10619d0c9bf (2444:1F253A:C96B49:EA1F40:690A6A1A) using electron-fetch with status 200.
+2025-11-04 22:03:56.773 [info] Refetch model metadata: Succeeded in 361ms 5dd01658-1462-4153-b87b-c1020965936f (8030:31EE82:D46692:F7419E:690A6A1B) using node-http with status 200.
+2025-11-04 22:03:57.142 [info] Refetch model metadata: Succeeded in 368ms 5b73be5a-5ef5-4dd9-8a00-6863cff6ec84 (C2F5:2AB8DE:C33142:E38B60:690A6A1B) using node-fetch with status 200.

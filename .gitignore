@@ -1,0 +1,9 @@
+QtProject.conf
+dconf/
+fontconfig/
+libreoffice/
+mimeapps.list
+nextjs-nodejs/
+pulse/
+xarchiver/
+xfce4/

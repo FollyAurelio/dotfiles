@@ -1,0 +1,91 @@
+2025-11-17 18:23:11.696 [info] Extension host with pid 623912 started
+2025-11-17 18:23:11.696 [info] Skipping acquiring lock for /home/pancake/.config/Code/User/workspaceStorage/c8412d8388aca0d4521678d77452e217.
+2025-11-17 18:23:12.099 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-17 18:23:12.133 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-17 18:23:12.150 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:23:12.159 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:23:12.171 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:23:12.233 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:23:12.461 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-17 18:23:12.627 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-17 18:23:12.636 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-17 18:23:12.687 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-17 18:23:12.847 [info] Eager extensions activated
+2025-11-17 18:23:12.861 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:23:12.863 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:23:12.881 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:23:14.721 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:23:15.480 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-17 18:23:16.461 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-11-17 18:34:28.078 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-17 18:34:28.120 [info] Extension host with pid 623912 exiting with code 0
+2025-11-17 18:34:29.472 [info] Extension host with pid 627223 started
+2025-11-17 18:34:29.472 [info] Skipping acquiring lock for /home/pancake/.config/Code/User/workspaceStorage/2a8ec9a85b034f64c8806d9690548aa5.
+2025-11-17 18:34:29.532 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-17 18:34:29.562 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-17 18:34:29.583 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-17 18:34:30.302 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-17 18:34:30.324 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-17 18:34:30.401 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-17 18:34:30.521 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-17 18:34:30.621 [info] Eager extensions activated
+2025-11-17 18:34:30.687 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:34:30.691 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:34:30.710 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:34:32.339 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-11-17 18:35:04.958 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-17 18:35:04.988 [info] Extension host with pid 627223 exiting with code 0
+2025-11-17 18:35:06.166 [info] Extension host with pid 627757 started
+2025-11-17 18:35:06.166 [info] Skipping acquiring lock for /home/pancake/.config/Code/User/workspaceStorage/fb4f06d306f8455d99cf11f33faafd2f.
+2025-11-17 18:35:06.212 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-17 18:35:06.250 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-17 18:35:06.268 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2025-11-17 18:35:06.990 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-17 18:35:07.013 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-11-17 18:35:07.088 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-17 18:35:07.207 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-17 18:35:07.314 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'api', root cause: GitHub.copilot-chat
+2025-11-17 18:35:08.955 [info] Eager extensions activated
+2025-11-17 18:35:08.967 [error] Error: chatParticipant must be declared in package.json: claude-code
+    at sqt.$registerAgent (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:509:5906)
+2025-11-17 18:35:09.004 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:35:09.006 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-17 18:36:40.945 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2025-11-17 18:37:13.802 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-17 18:37:18.956 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-17 18:37:24.042 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:37:24.050 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:37:24.064 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-11-17 18:37:43.144 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2025-11-17 18:39:20.987 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-11-17 18:40:49.280 [info] ExtensionService#_doActivateExtension vscode.references-view, startup: false, activationEvent: 'onCommand:references-view.findReferences'
+2025-11-17 18:44:11.296 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 18:44:11.296 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 18:46:36.005 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 18:46:36.005 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 18:46:41.434 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model82)
+2025-11-17 18:46:41.435 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model82)
+2025-11-17 18:46:44.236 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 18:46:44.236 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model60)
+2025-11-17 19:06:26.923 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model178)
+2025-11-17 19:06:26.924 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model178)
+2025-11-17 19:06:36.356 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model180)
+2025-11-17 19:06:36.356 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model180)
+2025-11-17 19:07:15.633 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model182)
+2025-11-17 19:07:15.633 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model182)
+2025-11-17 19:07:29.973 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model180)
+2025-11-17 19:07:29.973 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model180)
+2025-11-17 19:07:41.018 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model185)
+2025-11-17 19:07:41.019 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model185)
+2025-11-17 19:13:09.107 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:13:09.107 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:13:42.270 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:13:42.271 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:14:11.496 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:14:11.496 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:3,$model188)
+2025-11-17 19:29:57.382 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-11-17 19:44:25.108 [warning] GitHub.copilot-chat - Code actions of kind 'quickfix' requested but returned code action is of kind 'refactor.rewrite.review.copilot'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-11-19 19:58:57.026 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-19 19:58:57.133 [info] Extension host with pid 627757 exiting with code 0

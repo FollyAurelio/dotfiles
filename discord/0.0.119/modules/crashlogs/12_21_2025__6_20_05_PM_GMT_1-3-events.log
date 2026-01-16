@@ -1,0 +1,126 @@
+12/21/2025, 6:20:05 PM GMT+1 8: ✅ webContents.did-finish-load web1
+12/21/2025, 6:20:06 PM GMT+1 9: ✅ webContents.created web2 ""
+12/21/2025, 6:20:06 PM GMT+1 10: ✅ window.created win2 "Discord"
+12/21/2025, 6:20:08 PM GMT+1 11: ✅ webContents.did-finish-load web2
+12/21/2025, 6:20:10 PM GMT+1 12: window.close win1
+12/21/2025, 6:20:10 PM GMT+1 13: webContents.destroyed web1
+12/21/2025, 6:20:10 PM GMT+1 14: window.closed win1
+12/21/2025, 6:24:06 PM GMT+1 15: before-quit
+12/21/2025, 6:24:27 PM GMT+1 0: 
+
+----------------------------------------------
+12/21/2025, 6:24:27 PM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+12/21/2025, 6:24:27 PM GMT+1 2: ✅ webContents.created web1 ""
+12/21/2025, 6:24:27 PM GMT+1 3: ✅ window.created win1 "discord"
+12/21/2025, 6:24:28 PM GMT+1 4: ✅ webContents.did-finish-load web1
+12/21/2025, 6:24:28 PM GMT+1 5: ✅ webContents.created web2 ""
+12/21/2025, 6:24:28 PM GMT+1 6: ✅ window.created win2 "Discord"
+12/21/2025, 6:24:30 PM GMT+1 7: ✅ webContents.did-finish-load web2
+12/21/2025, 6:24:31 PM GMT+1 8: window.close win1
+12/21/2025, 6:24:31 PM GMT+1 9: webContents.destroyed web1
+12/21/2025, 6:24:31 PM GMT+1 10: window.closed win1
+12/21/2025, 6:36:27 PM GMT+1 11: before-quit
+12/21/2025, 6:37:01 PM GMT+1 0: 
+
+----------------------------------------------
+12/21/2025, 6:37:02 PM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+12/21/2025, 6:37:02 PM GMT+1 2: ✅ webContents.created web1 ""
+12/21/2025, 6:37:02 PM GMT+1 3: ✅ window.created win1 "discord"
+12/21/2025, 6:37:02 PM GMT+1 4: ✅ webContents.did-finish-load web1
+12/21/2025, 6:37:02 PM GMT+1 5: ✅ webContents.created web2 ""
+12/21/2025, 6:37:02 PM GMT+1 6: ✅ window.created win2 "Discord"
+12/21/2025, 6:37:05 PM GMT+1 7: ✅ webContents.did-finish-load web2
+12/21/2025, 6:37:06 PM GMT+1 8: window.close win1
+12/21/2025, 6:37:06 PM GMT+1 9: webContents.destroyed web1
+12/21/2025, 6:37:06 PM GMT+1 10: window.closed win1
+12/23/2025, 11:14:08 AM GMT+1 11: before-quit
+12/23/2025, 11:14:08 AM GMT+1 12: window.close win2
+12/23/2025, 11:14:33 AM GMT+1 0: 
+
+----------------------------------------------
+12/23/2025, 11:14:33 AM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+12/23/2025, 11:14:33 AM GMT+1 2: ✅ webContents.created web1 ""
+12/23/2025, 11:14:33 AM GMT+1 3: ✅ window.created win1 "discord"
+12/23/2025, 11:14:33 AM GMT+1 4: ✅ webContents.did-finish-load web1
+12/23/2025, 11:14:44 AM GMT+1 5: ✅ webContents.created web2 ""
+12/23/2025, 11:14:44 AM GMT+1 6: ✅ window.created win2 "Discord"
+12/23/2025, 11:14:45 AM GMT+1 7: ✅ webContents.did-finish-load web2
+12/23/2025, 11:14:46 AM GMT+1 8: window.close win1
+12/23/2025, 11:14:46 AM GMT+1 9: webContents.destroyed web1
+12/23/2025, 11:14:46 AM GMT+1 10: window.closed win1
+12/23/2025, 11:29:38 AM GMT+1 11: before-quit
+12/23/2025, 11:29:38 AM GMT+1 12: window.close win2
+12/23/2025, 11:29:38 AM GMT+1 13: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+12/23/2025, 11:29:59 AM GMT+1 0: 
+
+----------------------------------------------
+12/23/2025, 11:29:59 AM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+12/23/2025, 11:29:59 AM GMT+1 2: ✅ webContents.created web1 ""
+12/23/2025, 11:29:59 AM GMT+1 3: ✅ window.created win1 "discord"
+12/23/2025, 11:29:59 AM GMT+1 4: ✅ webContents.did-finish-load web1
+12/23/2025, 11:29:59 AM GMT+1 5: ✅ webContents.created web2 ""
+12/23/2025, 11:29:59 AM GMT+1 6: ✅ window.created win2 "Discord"
+12/23/2025, 11:30:01 AM GMT+1 7: ✅ webContents.did-finish-load web2
+12/23/2025, 11:30:02 AM GMT+1 8: window.close win1
+12/23/2025, 11:30:02 AM GMT+1 9: webContents.destroyed web1
+12/23/2025, 11:30:02 AM GMT+1 10: window.closed win1
+12/23/2025, 11:38:32 AM GMT+1 11: before-quit
+12/23/2025, 11:38:32 AM GMT+1 12: window.close win2
+12/23/2025, 11:38:32 AM GMT+1 13: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+12/23/2025, 11:38:52 AM GMT+1 0: 
+
+----------------------------------------------
+12/23/2025, 11:38:52 AM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+12/23/2025, 11:38:52 AM GMT+1 2: ✅ webContents.created web1 ""
+12/23/2025, 11:38:52 AM GMT+1 3: ✅ window.created win1 "discord"
+12/23/2025, 11:38:52 AM GMT+1 4: ✅ webContents.did-finish-load web1
+12/23/2025, 11:39:03 AM GMT+1 5: ✅ webContents.created web2 ""
+12/23/2025, 11:39:03 AM GMT+1 6: ✅ window.created win2 "Discord"
+12/23/2025, 11:39:04 AM GMT+1 7: ✅ webContents.did-finish-load web2
+12/23/2025, 11:39:05 AM GMT+1 8: window.close win1
+12/23/2025, 11:39:05 AM GMT+1 9: webContents.destroyed web1
+12/23/2025, 11:39:05 AM GMT+1 10: window.closed win1
+1/7/2026, 1:21:29 PM GMT+1 11: before-quit
+1/7/2026, 1:22:15 PM GMT+1 0: 
+
+----------------------------------------------
+1/7/2026, 1:22:15 PM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+1/7/2026, 1:22:15 PM GMT+1 2: ✅ webContents.created web1 ""
+1/7/2026, 1:22:15 PM GMT+1 3: ✅ window.created win1 "discord"
+1/7/2026, 1:22:16 PM GMT+1 4: ✅ webContents.did-finish-load web1
+1/7/2026, 1:22:16 PM GMT+1 5: ✅ webContents.created web2 ""
+1/7/2026, 1:22:16 PM GMT+1 6: ✅ window.created win2 "Discord"
+1/7/2026, 1:22:18 PM GMT+1 7: ✅ webContents.did-finish-load web2
+1/7/2026, 1:22:19 PM GMT+1 8: window.close win1
+1/7/2026, 1:22:19 PM GMT+1 9: webContents.destroyed web1
+1/7/2026, 1:22:19 PM GMT+1 10: window.closed win1
+1/11/2026, 12:30:31 AM GMT+1 11: window.close win2
+1/11/2026, 12:31:00 AM GMT+1 12: before-quit
+1/11/2026, 12:31:00 AM GMT+1 13: window.close win2
+1/11/2026, 12:31:00 AM GMT+1 14: webContents.destroyed web2
+1/11/2026, 12:31:00 AM GMT+1 15: window.closed win2
+1/11/2026, 12:32:50 AM GMT+1 0: 
+
+----------------------------------------------
+1/11/2026, 12:32:50 AM GMT+1 1: Discord starting: {"releaseChannel":"stable","version":"0.0.119"}, modulepath: /home/pancake/.config/discord/0.0.119/modules
+1/11/2026, 12:32:50 AM GMT+1 2: ✅ webContents.created web1 ""
+1/11/2026, 12:32:50 AM GMT+1 3: ✅ window.created win1 "discord"
+1/11/2026, 12:32:51 AM GMT+1 4: ✅ webContents.did-finish-load web1
+1/11/2026, 12:33:01 AM GMT+1 5: ✅ webContents.created web2 ""
+1/11/2026, 12:33:01 AM GMT+1 6: ✅ window.created win2 "Discord"
+1/11/2026, 12:33:02 AM GMT+1 7: ✅ webContents.did-finish-load web2
+1/11/2026, 12:33:04 AM GMT+1 8: window.close win1
+1/11/2026, 12:33:04 AM GMT+1 9: webContents.destroyed web1
+1/11/2026, 12:33:04 AM GMT+1 10: window.closed win1

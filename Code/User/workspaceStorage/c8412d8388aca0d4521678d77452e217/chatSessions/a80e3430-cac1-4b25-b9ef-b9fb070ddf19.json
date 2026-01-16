@@ -1,0 +1,448 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_c31958a2-c91b-43d8-84f8-820a255059dc",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 5
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 6
+            },
+            "text": " ",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_715fcc30-daf3-4daf-86f5-43d9267f8fb2",
+      "result": {
+        "errorDetails": {
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 1326
+        },
+        "metadata": {
+          "modelMessageId": "",
+          "responseId": "bc80a198-600d-4e47-82f3-35d95e8cc3a2",
+          "sessionId": "71abbd4d-7564-4b58-a231-90872ba3166d",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1761413721785,
+      "modelId": "copilot/gpt-5-mini"
+    },
+    {
+      "requestId": "request_e9455898-0478-4499-8a67-d23ee04db384",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 55
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 56
+            },
+            "text": "change the assignee field to a number from one to three",
+            "kind": "text"
+          }
+        ],
+        "text": "change the assignee field to a number from one to three"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/data/taskData.json",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/data/taskData.json",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/data/taskData.json",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "    \"assignee\": 2,",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 1,
+                  "endLineNumber": 6,
+                  "endColumn": 27
+                }
+              }
+            ],
+            [
+              {
+                "text": "\n    \"status\": \"In Review\",",
+                "range": {
+                  "startLineNumber": 6,
+                  "startColumn": 19,
+                  "endLineNumber": 6,
+                  "endColumn": 19
+                }
+              }
+            ],
+            []
+          ],
+          "state": {
+            "sha1": "8c3c96e3bf58c8bccdb7320683df6a78c394cbaf",
+            "applied": 1
+          }
+        }
+      ],
+      "responseId": "response_8a80c45c-396c-40c6-866c-c72c4b352b05",
+      "result": {
+        "timings": {
+          "totalElapsed": 33611
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "```json\n\"assignee\": 2,\n\"status\": \"In Review\",\n```",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "06eb15f9-7ad1-457e-ba41-a823473a1930",
+              "statefulMarker": "OUP/auWeTN0BsapEYnMcF0KrAaYvdp6lde8Im968z7NUfU7KwJxZBrXJtUX87fDpTXL/X0ubdiIX9jBYScnjEjhJC8of204ROUc6YA4G2XItQCJhUcatiRziiOlmdKEBjE6mGVE3jtxsJl7/U2LwbS10Ov86gLfQs9O1NPV/Dh805X+LAVY8DgMpiF23IZl/nUhfNwo7ttzuaLo/TpwJ+UGkNfbOA/tLQ7vVkHBmx7LLSDxnuLxubvNkwsVAd5IuDOeud9EBzn4Stcpx5wRmzY7doLPGI4e0ByEWorAqJx9CHFqzKWJZidBtM82yUQN4Fnm7cP6YwcwgqTtIPiPrKQXQPmodjLbB1t4sKVZClL9DCdNQPkZ+lwTCYSS2dB7P1sMjyezvdaohTvU5NV1lyNSTsg05",
+              "thinking": {
+                "id": "wrF6ndCbhTfQkIMplLD4z2SsaAqjTuw2pNREul9je4O8zTMtG3R1LjyV04MGZqTBQ+LRpJmQNsh8Uc5F248xD1YPOFN6rNRO9qGYtbwFLYYJFlkOq90RU3uMOuCby1yoJNqOj3nMT5094ztkR9Y2KpyPDeixelmV2Sq54hqcuWI1QQI/PilDsrFdr1lIirde2bBDw8mZAqznFVaKRmABsFfLEMVX9Ru7wwgon+uzjLe1YAXlcXPgAGPYQt/ZCnEtRUF3NliPPjTsNIcI2wabco6h+hgHqndOsh3hzofDDRBMtBDk4a3Ng8maeJSJs7O2Fp6NY7UacbkkQyzCM0OX35/Nk2/iu9+0xc73xtjHzWcuIEhrRE1vWOzs7gEdKKD2/hyx8jo5NGODQnCZy+PD6/1c1w==",
+                "text": "**Clarifying assignee changes**\n\nIt seems I can't change the assignee field directly, but maybe the user wants to assign numbers 1-3 for all tasks? There’s some ambiguity here, so I should probably ask for clarification. However, the user is likely looking for immediate code. I could modify the placeholder code to include the reassigned \"assignee\": 2, along with the status. But if there’s already an assignee line in the original file, it could cause a duplicate key issue. I need to be careful about that!**Modifying the assignee field**\n\nI could change the assignee field value directly in the file, but the user specifically requested modified placeholder code. It looks like they want the modified selection code to replace the original placeholder, with the assignee field reflecting a number. The original selection only included the status, so I can expand it by adding \"assignee\": 2, assuming the user will remove the original line to prevent duplicates. I’ll provide the modified placeholder code, keeping the status unchanged while including the new assignee line.**Providing the modified code block**\n\nI’m ready to provide the modified code block. The output will be:\n\n```json\n\"assignee\": 2,\n\"status\": \"In Review\",\n```\n\nThis line should replace the placeholder. However, there’s still an original assignee line above, which could cause a duplicate key issue if the user doesn’t remove that. Given that, I hope they’ll update the original. Since the user’s request was pretty straightforward, I’ll keep it minimal and stick to the required format while providing the code block for clarity.",
+                "encrypted": "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",
+                "tokens": 1600
+              }
+            }
+          ],
+          "modelMessageId": "c5c2d769-aec0-4473-a7f4-97d99c036fd6",
+          "responseId": "4cf216d2-47f7-4c65-95ec-bfe0fe8c9ff4",
+          "sessionId": "71abbd4d-7564-4b58-a231-90872ba3166d",
+          "agentId": "github.copilot.editor"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1761413742713,
+      "modelId": "copilot/gpt-5-mini"
+    }
+  ],
+  "sessionId": "a80e3430-cac1-4b25-b9ef-b9fb070ddf19",
+  "creationDate": 1761413721724,
+  "isImported": false,
+  "lastMessageDate": 1761413742714
+}

@@ -1,0 +1,23 @@
+import accounts from "@/data/account-data.json";
+import type { User } from "@/types/AccountTypes";
+
+export async function mockLogin(email: string, password: string) {
+  await new Promise((r) => setTimeout(r, 500)); // simulate network delay
+
+  const user = accounts.find(
+    (acc) => acc.email === email && acc.password === password
+  );
+
+  if (!user) throw new Error("Invalid email or password");
+  console.log(user)
+  return {
+    user: {
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      avatar: user.avatar,
+      permission: user.permission,
+    } as User,
+    token: btoa(`${email}:${Date.now()}`) // mock token
+  };
+}

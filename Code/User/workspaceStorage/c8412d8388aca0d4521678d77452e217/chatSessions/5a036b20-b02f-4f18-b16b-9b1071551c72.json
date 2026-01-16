@@ -1,0 +1,979 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_bc0cc8b9-6572-4fc1-aef9-536bb5d1419b",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 634
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 2,
+              "endColumn": 343
+            },
+            "text": " Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }[]' is not assignable to type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }[]'.\n  Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }' is missing the following properties from type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }': header, type, target, limit, reviewer",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }[]' is not assignable to type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }[]'.\n  Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }' is missing the following properties from type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }': header, type, target, limit, reviewer"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_cdcaebee-0d99-415f-b708-bbea17606711",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 12592
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "aa5889b6-8bea-4371-b6cb-ba135618f724"
+            }
+          ],
+          "modelMessageId": "82cc6557-13a8-48a0-9294-45e51750de73",
+          "responseId": "ffe85a63-0db6-45ec-8bd7-a1ec795ade35",
+          "sessionId": "576db9e4-4f4a-45f4-aec6-3189c4ad9538",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 341,
+              "startColumn": 3,
+              "endLineNumber": 341,
+              "endColumn": 7
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1760898919420,
+      "modelId": "copilot/gpt-5-mini"
+    },
+    {
+      "requestId": "request_002c0389-60c2-4d68-8f7b-dce6fdfb945a",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 5
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 6
+            },
+            "text": " ",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_57f42e18-0306-44f8-9dae-0a956eefaf61",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 3304
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "95a2bbe0-f887-46b3-92c3-89b45becf43a"
+            }
+          ],
+          "modelMessageId": "e73b2651-c8ca-4f07-995a-1940970cf87a",
+          "responseId": "f02a2250-6b3a-4a59-80be-cd74c8655167",
+          "sessionId": "576db9e4-4f4a-45f4-aec6-3189c4ad9538",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 341,
+              "startColumn": 3,
+              "endLineNumber": 341,
+              "endColumn": 7
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1760898936363,
+      "modelId": "copilot/gpt-5-mini"
+    },
+    {
+      "requestId": "request_34b0f6b1-bcfe-4e12-bc37-5413e0ed25ea",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 6
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 7
+            },
+            "text": "  ",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix  "
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [],
+      "responseId": "response_18281cf8-9565-4e4a-93fa-9e69244b54d8",
+      "result": {
+        "errorDetails": {
+          "code": "canceled",
+          "message": "Canceled",
+          "responseIsIncomplete": true
+        },
+        "timings": {
+          "totalElapsed": 19382
+        },
+        "metadata": {
+          "toolCallRounds": [
+            {
+              "response": "",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "8924284f-753c-4918-820d-67a9bbf4c46e"
+            }
+          ],
+          "modelMessageId": "18c3369a-47c5-4ba4-ace9-4a4b8ce0a0c9",
+          "responseId": "6598529d-b880-4cf9-9132-06335a492006",
+          "sessionId": "576db9e4-4f4a-45f4-aec6-3189c4ad9538",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "followups": [],
+      "isCanceled": true,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 341,
+              "startColumn": 3,
+              "endLineNumber": 341,
+              "endColumn": 7
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1760898944170,
+      "modelId": "copilot/gpt-5-mini"
+    },
+    {
+      "requestId": "request_29582446-5556-4d68-93af-359beb4c45c3",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 633
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 4,
+              "endColumn": 1
+            },
+            "text": "fix Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }[]' is not assignable to type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }[]'.\nType '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }' is missing the following properties from type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }': header, type, target, limit, reviewer\n\n",
+            "kind": "text"
+          }
+        ],
+        "text": "fix Type '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }[]' is not assignable to type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }[]'.\nType '{ id: number; title: string; assignee: string; status: string; label: string; urgency: string; deadline: string; description: string; }' is missing the following properties from type '{ id: number; header: string; type: string; status: string; target: string; limit: string; reviewer: string; }': header, type, target, limit, reviewer\n\n"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Map the imported JSON items to the shape DataTable expects before passing them as the data prop.\n\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/pancake/Documents/TeamProject28/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Generating edits...",
+            "uris": {}
+          }
+        },
+        {
+          "kind": "textEditGroup",
+          "uri": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Home.tsx",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Home.tsx",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Home.tsx",
+            "scheme": "file"
+          },
+          "edits": [
+            [
+              {
+                "text": "import { ChartAreaInteractive } from \"@/components/chart-area-interactive\";\nimport { DataTable } from \"@/components/data-table\";\nimport { SectionCards } from \"@/components/section-cards\";\n\nimport data from \"./data.json\";\n\nexport default function Home() {\n  const tableData = (data as any[]).map((item) => ({\n    id: item.id,\n    header: item.title,\n    type: item.label,\n    status: item.status,\n    target: item.assignee,\n    limit: item.deadline,\n    reviewer: item.urgency,\n  }));\n\n  return (\n    <div className=\"flex flex-col gap-4 py-4 md:gap-6 md:py-6\">\n      <SectionCards />\n      <div className=\"px-4 lg:px-6\">\n        <ChartAreaInteractive />\n      </div>\n      <DataTable data={tableData} />\n    </div>\n  );\n}\n",
+                "range": {
+                  "startLineNumber": 1,
+                  "startColumn": 1,
+                  "endLineNumber": 18,
+                  "endColumn": 1
+                }
+              }
+            ]
+          ],
+          "state": {
+            "sha1": "9131b94f202bc6a1e928d88aeac57d5c779b45c0",
+            "applied": 1
+          }
+        }
+      ],
+      "responseId": "response_19483843-a01f-4703-9f20-ecb40cb6bc74",
+      "result": {
+        "timings": {
+          "firstProgress": 12496,
+          "totalElapsed": 17224
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "Map the imported JSON items to the shape DataTable expects before passing them as the data prop.\n\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Home.tsx\n---FIND\n```tsx\nimport { ChartAreaInteractive } from \"@/components/chart-area-interactive\";\nimport { DataTable } from \"@/components/data-table\";\nimport { SectionCards } from \"@/components/section-cards\";\n\nimport data from \"./data.json\";\n\nexport default function Home() {\n  return (\n    <div className=\"flex flex-col gap-4 py-4 md:gap-6 md:py-6\">\n      <SectionCards />\n      <div className=\"px-4 lg:px-6\">\n        <ChartAreaInteractive />\n      </div>\n      <DataTable data={data} />\n    </div>\n  );\n}\n\n```\n---REPLACE\n```tsx\nimport { ChartAreaInteractive } from \"@/components/chart-area-interactive\";\nimport { DataTable } from \"@/components/data-table\";\nimport { SectionCards } from \"@/components/section-cards\";\n\nimport data from \"./data.json\";\n\nexport default function Home() {\n  const tableData = (data as any[]).map((item) => ({\n    id: item.id,\n    header: item.title,\n    type: item.label,\n    status: item.status,\n    target: item.assignee,\n    limit: item.deadline,\n    reviewer: item.urgency,\n  }));\n\n  return (\n    <div className=\"flex flex-col gap-4 py-4 md:gap-6 md:py-6\">\n      <SectionCards />\n      <div className=\"px-4 lg:px-6\">\n        <ChartAreaInteractive />\n      </div>\n      <DataTable data={tableData} />\n    </div>\n  );\n}\n\n```\n---COMPLETE",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "a9beed94-d083-49c2-b339-e05142a69cb0"
+            }
+          ],
+          "modelMessageId": "1eeb6313-cace-4969-b37b-08a1542aeadd",
+          "responseId": "c0bda76b-2d15-4532-aa86-ffcb4941f0e9",
+          "sessionId": "576db9e4-4f4a-45f4-aec6-3189c4ad9538",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "GPT-5 mini • 1x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.31.5",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "uri": {
+              "$mid": 1,
+              "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "path": "/home/pancake/Documents/TeamProject28/frontend/src/components/data-table.tsx",
+              "scheme": "file"
+            },
+            "range": {
+              "startLineNumber": 341,
+              "startColumn": 3,
+              "endLineNumber": 341,
+              "endColumn": 7
+            }
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1760898964750,
+      "modelId": "copilot/gpt-5-mini"
+    }
+  ],
+  "sessionId": "5a036b20-b02f-4f18-b16b-9b1071551c72",
+  "creationDate": 1760898919292,
+  "isImported": false,
+  "lastMessageDate": 1760898964750
+}

@@ -1,0 +1,646 @@
+{
+  "version": 3,
+  "requesterUsername": "FollyAurelio",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/157518751",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "editor",
+  "requests": [
+    {
+      "requestId": "request_92ae09f6-bb07-4ceb-85af-3f7ae967b3b3",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 4,
+              "endExclusive": 92
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 5,
+              "endLineNumber": 1,
+              "endColumn": 93
+            },
+            "text": " Cannot find module '@/components/project-table' or its corresponding type declarations.",
+            "kind": "text"
+          }
+        ],
+        "text": "/fix Cannot find module '@/components/project-table' or its corresponding type declarations."
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "kind": "confirmation",
+          "title": "Enable Claude Sonnet 3.5 for all clients",
+          "message": {
+            "value": "Enable access to the latest Claude 3.5 Sonnet model from Anthropic. [Learn more about how GitHub Copilot serves Claude 3.5 Sonnet](https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot).",
+            "uris": {
+              "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot": {
+                "$mid": 1,
+                "external": "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
+                "path": "/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com"
+              }
+            }
+          },
+          "data": {
+            "prompt": "Cannot find module '@/components/project-table' or its corresponding type declarations."
+          },
+          "buttons": [
+            "Enable"
+          ],
+          "isUsed": true
+        }
+      ],
+      "responseId": "response_f5f5bf4a-7e6b-4883-8dea-dd1ea9b005d3",
+      "result": {
+        "timings": {
+          "totalElapsed": 857
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1762114932632,
+      "modelId": "copilot/auto"
+    },
+    {
+      "requestId": "request_c92c6333-45ff-4754-bbdb-755b1ffca242",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 8
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 9
+            },
+            "agent": {
+              "extensionId": {
+                "value": "GitHub.copilot-chat",
+                "_lower": "github.copilot-chat"
+              },
+              "extensionVersion": "0.32.4",
+              "publisherDisplayName": "GitHub",
+              "extensionPublisherId": "GitHub",
+              "extensionDisplayName": "GitHub Copilot Chat",
+              "id": "github.copilot.editor",
+              "description": "Ask or edit in context",
+              "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+              "metadata": {
+                "themeIcon": {
+                  "id": "copilot"
+                },
+                "hasFollowups": false,
+                "supportIssueReporting": false
+              },
+              "name": "Copilot",
+              "fullName": "GitHub Copilot",
+              "isDefault": true,
+              "locations": [
+                "editor"
+              ],
+              "modes": [
+                "ask"
+              ],
+              "slashCommands": [
+                {
+                  "name": "generate",
+                  "description": "Generate new code",
+                  "disambiguation": [
+                    {
+                      "category": "generate",
+                      "description": "Generate new code",
+                      "examples": [
+                        "Add a function that returns the sum of two numbers"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "edit",
+                  "description": "Edit the selected code in your active editor",
+                  "disambiguation": [
+                    {
+                      "category": "edit",
+                      "description": "Make changes to existing code",
+                      "examples": [
+                        "Change this method to use async/await"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "doc",
+                  "description": "Add documentation comment for this symbol",
+                  "disambiguation": [
+                    {
+                      "category": "doc",
+                      "description": "Add documentation comment for this symbol",
+                      "examples": [
+                        "Add jsdoc to this method"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "fix",
+                      "description": "Propose a fix for the problems in the selected code",
+                      "examples": [
+                        "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "explain",
+                  "description": "Explain how the code in your active editor works",
+                  "disambiguation": [
+                    {
+                      "category": "explain",
+                      "description": "Explain how the code in your active editor works",
+                      "examples": [
+                        "Write an explanation for the code above as paragraphs of text."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "tests",
+                  "description": "Generate unit tests for the selected code",
+                  "disambiguation": [
+                    {
+                      "category": "tests",
+                      "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                      "examples": [
+                        "Write a set of detailed unit test functions for the code above."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "disambiguation": [
+                {
+                  "category": "unknown",
+                  "description": "Intent of this command is unclear or is not related to information technologies",
+                  "examples": [
+                    "Add a dog to this comment."
+                  ]
+                }
+              ]
+            },
+            "kind": "agent"
+          },
+          {
+            "range": {
+              "start": 8,
+              "endExclusive": 9
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 9,
+              "endLineNumber": 1,
+              "endColumn": 10
+            },
+            "text": " ",
+            "kind": "text"
+          },
+          {
+            "range": {
+              "start": 9,
+              "endExclusive": 13
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 10,
+              "endLineNumber": 1,
+              "endColumn": 14
+            },
+            "command": {
+              "name": "fix",
+              "description": "Propose a fix for the problems in the selected code",
+              "disambiguation": [
+                {
+                  "category": "fix",
+                  "description": "Propose a fix for the problems in the selected code",
+                  "examples": [
+                    "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                  ]
+                }
+              ]
+            },
+            "kind": "subcommand"
+          },
+          {
+            "range": {
+              "start": 13,
+              "endExclusive": 64
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 14,
+              "endLineNumber": 1,
+              "endColumn": 65
+            },
+            "text": " Enable: \"Enable Claude Sonnet 3.5 for all clients\"",
+            "kind": "text"
+          }
+        ],
+        "text": "@Copilot /fix Enable: \"Enable Claude Sonnet 3.5 for all clients\""
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "Create a new ProjectTable component file in the components directory to resolve the module import error.\n\n",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/pancake/Documents/TeamProject28/",
+            "scheme": "file"
+          }
+        },
+        {
+          "kind": "progressMessage",
+          "content": {
+            "value": "Generating edits...",
+            "uris": {}
+          }
+        },
+        {
+          "value": "```\nimport React from 'react';\n\nexport const ProjectTable: React.FC = () => {\n    return (\n        <div>\n            {/* Add your project table implementation here */}\n            <h2>Project Table</h2>\n        </div>\n    );\n};\n```",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "baseUri": {
+            "$mid": 1,
+            "path": "/home/pancake/Documents/TeamProject28/",
+            "scheme": "file"
+          }
+        }
+      ],
+      "responseId": "response_b3528bed-d3fe-4fbd-9d40-c226fd32c049",
+      "result": {
+        "timings": {
+          "firstProgress": 3833,
+          "totalElapsed": 5760
+        },
+        "metadata": {
+          "codeBlocks": [
+            {
+              "code": "import React from 'react';\n\nexport const ProjectTable: React.FC = () => {\n    return (\n        <div>\n            {/* Add your project table implementation here */}\n            <h2>Project Table</h2>\n        </div>\n    );\n};\n",
+              "language": "",
+              "markdownBeforeBlock": "Create a new ProjectTable component file in the components directory to resolve the module import error.\n\n"
+            }
+          ],
+          "toolCallRounds": [
+            {
+              "response": "Create a new ProjectTable component file in the components directory to resolve the module import error.\n\n---FILEPATH /home/pancake/Documents/TeamProject28/frontend/src/components/project-table.tsx\n---FIND\n```\n```\n---REPLACE\n```\nimport React from 'react';\n\nexport const ProjectTable: React.FC = () => {\n    return (\n        <div>\n            {/* Add your project table implementation here */}\n            <h2>Project Table</h2>\n        </div>\n    );\n};\n```\n---COMPLETE",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "51f6d061-3bde-4487-b1b6-a21a2fd68ca0"
+            }
+          ],
+          "modelMessageId": "83b594da-31ff-415b-8692-ae82df7b8755",
+          "responseId": "974e7d54-0e55-4f4f-9dcc-e437d97ab0c9",
+          "sessionId": "03580483-743e-48dd-afd0-48589f1b556c",
+          "agentId": "github.copilot.editor",
+          "command": "fix"
+        },
+        "details": "Claude Sonnet 3.5 • 0.9x"
+      },
+      "responseMarkdownInfo": [],
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "extensionVersion": "0.32.4",
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.editor",
+        "description": "Ask or edit in context",
+        "when": "!config.inlineChat.enableV2 && !config.github.copilot.chat.advanced.inlineChat2",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "supportIssueReporting": false
+        },
+        "name": "Copilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "editor"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [
+          {
+            "name": "generate",
+            "description": "Generate new code",
+            "disambiguation": [
+              {
+                "category": "generate",
+                "description": "Generate new code",
+                "examples": [
+                  "Add a function that returns the sum of two numbers"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "edit",
+            "description": "Edit the selected code in your active editor",
+            "disambiguation": [
+              {
+                "category": "edit",
+                "description": "Make changes to existing code",
+                "examples": [
+                  "Change this method to use async/await"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "doc",
+            "description": "Add documentation comment for this symbol",
+            "disambiguation": [
+              {
+                "category": "doc",
+                "description": "Add documentation comment for this symbol",
+                "examples": [
+                  "Add jsdoc to this method"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "disambiguation": [
+              {
+                "category": "fix",
+                "description": "Propose a fix for the problems in the selected code",
+                "examples": [
+                  "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "explain",
+            "description": "Explain how the code in your active editor works",
+            "disambiguation": [
+              {
+                "category": "explain",
+                "description": "Explain how the code in your active editor works",
+                "examples": [
+                  "Write an explanation for the code above as paragraphs of text."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tests",
+            "description": "Generate unit tests for the selected code",
+            "disambiguation": [
+              {
+                "category": "tests",
+                "description": "Generate unit tests for the selected code. The user does not want to fix their existing tests.",
+                "examples": [
+                  "Write a set of detailed unit test functions for the code above."
+                ]
+              }
+            ]
+          }
+        ],
+        "disambiguation": [
+          {
+            "category": "unknown",
+            "description": "Intent of this command is unclear or is not related to information technologies",
+            "examples": [
+              "Add a dog to this comment."
+            ]
+          }
+        ]
+      },
+      "slashCommand": {
+        "name": "fix",
+        "description": "Propose a fix for the problems in the selected code",
+        "disambiguation": [
+          {
+            "category": "fix",
+            "description": "Propose a fix for the problems in the selected code",
+            "examples": [
+              "There is a problem in this code. Rewrite the code to show it with the bug fixed."
+            ]
+          }
+        ]
+      },
+      "contentReferences": [
+        {
+          "kind": "reference",
+          "reference": {
+            "$mid": 1,
+            "fsPath": "/home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Projects.tsx",
+            "external": "file:///home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Projects.tsx",
+            "path": "/home/pancake/Documents/TeamProject28/frontend/src/pages/dashboard_pages/Projects.tsx",
+            "scheme": "file"
+          }
+        }
+      ],
+      "codeCitations": [],
+      "timestamp": 1762114947147,
+      "confirmation": "Enable",
+      "modelId": "copilot/auto"
+    }
+  ],
+  "sessionId": "628d844e-fcfa-42db-9c6e-8e9e47129512",
+  "creationDate": 1762114932513,
+  "isImported": false,
+  "lastMessageDate": 1762114947147
+}

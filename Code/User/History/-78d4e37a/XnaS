@@ -1,0 +1,12 @@
+weird
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch rose
+# Your branch is ahead of 'origin/rose' by 14 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   frontend/package-lock.json
+#	modified:   frontend/src/components/todo-table.tsx
+#

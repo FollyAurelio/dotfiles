@@ -1,0 +1,620 @@
+[2026-01-07 13:22:18.686] [1434] (engine.cpp:454): Created native engine, time: Wed Jan  7 13:22:18 2026 CET, logPath: /home/pancake/.config/discord/logs/, logLevel: 2
+[2026-01-07 13:22:18.686] [1434] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2026-01-07 13:22:18.686] [1434] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2026-01-07 13:22:18.686] [1434] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 1
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 1
+Render pre processor: 0
+[2026-01-07 13:22:18.688] [1434] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.691] [1434] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2026-01-07 13:22:18.691] [1434] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2026-01-07 13:22:18.691] [1434] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.692] [1434] (adm_factory_default.cpp:96): Creating ADM on dedicated controls thread
+[2026-01-07 13:22:18.703] [1439] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:150): current platform is Linux
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:172): CreatePlatformSpecificObjects
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:922): PlatformAudioLayer
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:230): PulseAudio support is enabled.
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:235): Linux PulseAudio APIs will be utilized
+[2026-01-07 13:22:18.704] [1439] (audio_device_impl.cc:277): AttachAudioBuffer
+[2026-01-07 13:22:18.704] [1439] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2026-01-07 13:22:18.704] [1439] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2026-01-07 13:22:18.704] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2026-01-07 13:22:18.704] [1439] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2026-01-07 13:22:18.704] [1434] (audio_device_impl.cc:287): ActiveAudioLayer
+[2026-01-07 13:22:18.704] [1434] (adm_factory_default.cpp:96): Creating ADM on dedicated controls thread
+[2026-01-07 13:22:18.704] [1441] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:150): current platform is Linux
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:172): CreatePlatformSpecificObjects
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:922): PlatformAudioLayer
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:230): PulseAudio support is enabled.
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:235): Linux PulseAudio APIs will be utilized
+[2026-01-07 13:22:18.704] [1441] (audio_device_impl.cc:277): AttachAudioBuffer
+[2026-01-07 13:22:18.704] [1441] (audio_device_buffer.cc:197): SetRecordingSampleRate(0)
+[2026-01-07 13:22:18.704] [1441] (audio_device_buffer.cc:203): SetPlayoutSampleRate(0)
+[2026-01-07 13:22:18.704] [1441] (audio_device_buffer.cc:217): SetRecordingChannels(0)
+[2026-01-07 13:22:18.704] [1441] (audio_device_buffer.cc:223): SetPlayoutChannels(0)
+[2026-01-07 13:22:18.704] [1434] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.AppliedInputVolume.*` histogram stats.
+[2026-01-07 13:22:18.704] [1434] (input_volume_stats_reporter.cc:98): Will not log any `WebRTC.Audio.Apm.RecommendedInputVolume.*` histogram stats.
+[2026-01-07 13:22:18.704] [1434] (audio_processing_impl.cc:461): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2026-01-07 13:22:18.704] [1434] (audio_processing_impl.cc:474): AudioProcessing: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 0 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.704] [1434] (audio_engine.cpp:654): Creating audio engine: standard
+[2026-01-07 13:22:18.705] [1434] (audio_coding.cpp:158): Using software Opus decoder
+[2026-01-07 13:22:18.705] [1441] (audio_device_impl.cc:297): Init
+[2026-01-07 13:22:18.705] [1439] (audio_device_impl.cc:297): Init
+[2026-01-07 13:22:18.705] [1434] (audio_coding.cpp:175): Using software Opus encoder
+[2026-01-07 13:22:18.705] [1434] (audio_engine.cpp:215): Setting audio input device: 'default'
+[2026-01-07 13:22:18.705] [1434] (audio_engine.cpp:232): Setting audio output device: 'default'
+[2026-01-07 13:22:18.705] [1434] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.705] [1434] (transparent_mode.cc:240): AEC3 Transparent Mode: Legacy
+[2026-01-07 13:22:18.705] [1434] (echo_canceller3.cc:792): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2026-01-07 13:22:18.705] [1434] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.705] [1434] (clipping_predictor.cc:358): [AGC2] Clipping prediction disabled.
+[2026-01-07 13:22:18.705] [1434] (agc_manager_direct.cc:481): [agc] analog controller enabled: yes
+[2026-01-07 13:22:18.705] [1434] (agc_manager_direct.cc:484): [agc] Min mic level: 12 (overridden: no)
+[2026-01-07 13:22:18.705] [1434] (captured_audio_processor.cpp:192): SetNoiseCancellation: 0
+[2026-01-07 13:22:18.705] [1434] (audio_processing_impl.cc:673): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 1, headroom_db: 5, max_gain_db: 50, initial_gain_db: 15, max_gain_change_db_per_second: 6, max_output_noise_level_dbfs: -50 }, input_volume_control : { enabled 0}}
+[2026-01-07 13:22:18.706] [1434] (field_trial.cc:164): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2026-01-07 13:22:18.709] [1441] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:18.709] [1441] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:18.709] [1439] (audio_device_impl.cc:828): RegisterAudioCallback
+[2026-01-07 13:22:18.709] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:18.709] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:18.709] [1439] (audio_device_impl.cc:709): SetRecordingDevice(0)
+[2026-01-07 13:22:18.709] [1441] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:18.709] [1441] (audio_device_impl.cc:828): RegisterAudioCallback
+[2026-01-07 13:22:18.709] [1439] (audio_device_impl.cc:499): StereoRecordingIsAvailable
+[2026-01-07 13:22:18.710] [1439] (audio_device_impl.cc:506): output: 1
+[2026-01-07 13:22:18.710] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:18.710] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:18.710] [1439] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:18.710] [1439] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:18.710] [1439] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:18.710] [1439] (audio_device_impl.cc:641): SetPlayoutDevice(0)
+[2026-01-07 13:22:18.710] [1439] (audio_device_impl.cc:545): StereoPlayoutIsAvailable
+[2026-01-07 13:22:18.711] [1439] (audio_device_impl.cc:552): output: 1
+[2026-01-07 13:22:18.711] [1439] (audio_device_impl.cc:557): SetStereoPlayout(1)
+[2026-01-07 13:22:18.711] [1439] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2026-01-07 13:22:18.711] [1439] (audio_device_impl.cc:844): BuiltInAECIsAvailable
+[2026-01-07 13:22:18.711] [1439] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2026-01-07 13:22:18.711] [1439] (audio_device_impl.cc:847): output: 0
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:716): Setting audio input device id: 'default'
+[2026-01-07 13:22:18.713] [1434] (audio_engine.cpp:215): Setting audio input device: 'default'
+[2026-01-07 13:22:18.713] [1434] (webrtc_adm_helper.cpp:295): Deferring to work queue: EnsureRecordingStopped(1)
+[2026-01-07 13:22:18.713] [1434] (audio_engine.cpp:232): Setting audio output device: 'default'
+[2026-01-07 13:22:18.713] [1434] (webrtc_adm_helper.cpp:329): Deferring to work queue: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:139): *** OnDevicesChanged:
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:140): * audioInput:
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:143): - default: Ryzen HD Audio Controller Digital Microphone ()
+[2026-01-07 13:22:18.713] [1439] (audio_device_impl.cc:759): RecordingIsInitialized
+[2026-01-07 13:22:18.713] [1439] (webrtc_adm_helper.cpp:301): Completed: EnsureRecordingStopped(1)
+[2026-01-07 13:22:18.713] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:18.713] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:18.713] [1439] (audio_device_impl.cc:709): SetRecordingDevice(0)
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:143): - Ryzen HD Audio Controller Stereo Microphone ()
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:143): - Ryzen HD Audio Controller Digital Microphone ()
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:145): * audioOutput:
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:148): - default: Ryzen HD Audio Controller Speaker ()
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:148): - Ryzen HD Audio Controller Speaker ()
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:153): * videoInput:
+[2026-01-07 13:22:18.713] [1434] (engine.cpp:155): - Integrated Camera: Integrated C (usb-0000:03:00.3-3)
+[2026-01-07 13:22:18.713] [1439] (audio_device_impl.cc:499): StereoRecordingIsAvailable
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:506): output: 1
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:18.714] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:18.714] [1439] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:18.714] [1439] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:753): PlayoutIsInitialized
+[2026-01-07 13:22:18.714] [1439] (webrtc_adm_helper.cpp:335): Completed: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:641): SetPlayoutDevice(0)
+[2026-01-07 13:22:18.714] [1439] (audio_device_impl.cc:545): StereoPlayoutIsAvailable
+[2026-01-07 13:22:18.715] [1439] (audio_device_impl.cc:552): output: 1
+[2026-01-07 13:22:18.715] [1439] (audio_device_impl.cc:557): SetStereoPlayout(1)
+[2026-01-07 13:22:18.715] [1439] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2026-01-07 13:22:19.066] [1434] (engine.cpp:716): Setting audio input device id: 'default'
+[2026-01-07 13:22:19.066] [1434] (audio_engine.cpp:215): Setting audio input device: 'default'
+[2026-01-07 13:22:19.066] [1434] (webrtc_adm_helper.cpp:295): Deferring to work queue: EnsureRecordingStopped(1)
+[2026-01-07 13:22:19.066] [1434] (audio_engine.cpp:232): Setting audio output device: 'default'
+[2026-01-07 13:22:19.066] [1434] (webrtc_adm_helper.cpp:329): Deferring to work queue: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:19.066] [1439] (audio_device_impl.cc:759): RecordingIsInitialized
+[2026-01-07 13:22:19.066] [1439] (webrtc_adm_helper.cpp:301): Completed: EnsureRecordingStopped(1)
+[2026-01-07 13:22:19.066] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:19.066] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:19.066] [1439] (audio_device_impl.cc:709): SetRecordingDevice(0)
+[2026-01-07 13:22:19.066] [1434] (engine_audio_transport.cpp:659): EngineAudioTransport::SetSidechainCompression 1
+[2026-01-07 13:22:19.066] [1439] (audio_device_impl.cc:499): StereoRecordingIsAvailable
+[2026-01-07 13:22:19.066] [1434] (engine_audio_transport.cpp:670): EngineAudioTransport::ApplySidechainCompressionSettings  threshold: -32.5 ratio: 0.433333
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:506): output: 1
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:19.067] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:19.067] [1439] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:19.067] [1439] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:753): PlayoutIsInitialized
+[2026-01-07 13:22:19.067] [1439] (webrtc_adm_helper.cpp:335): Completed: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:641): SetPlayoutDevice(0)
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:545): StereoPlayoutIsAvailable
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:552): output: 1
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:557): SetStereoPlayout(1)
+[2026-01-07 13:22:19.067] [1439] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2026-01-07 13:22:19.067] [1439] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:19.067] [1439] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:19.067] [1439] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:19.388] [1434] (engine.cpp:716): Setting audio input device id: 'default'
+[2026-01-07 13:22:19.388] [1434] (audio_engine.cpp:215): Setting audio input device: 'default'
+[2026-01-07 13:22:19.388] [1434] (webrtc_adm_helper.cpp:295): Deferring to work queue: EnsureRecordingStopped(1)
+[2026-01-07 13:22:19.388] [1434] (audio_engine.cpp:232): Setting audio output device: 'default'
+[2026-01-07 13:22:19.388] [1434] (webrtc_adm_helper.cpp:329): Deferring to work queue: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:19.388] [1439] (audio_device_impl.cc:759): RecordingIsInitialized
+[2026-01-07 13:22:19.388] [1439] (webrtc_adm_helper.cpp:301): Completed: EnsureRecordingStopped(1)
+[2026-01-07 13:22:19.388] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:19.388] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:19.388] [1439] (audio_device_impl.cc:709): SetRecordingDevice(0)
+[2026-01-07 13:22:19.389] [1439] (audio_device_impl.cc:499): StereoRecordingIsAvailable
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:506): output: 1
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:511): SetStereoRecording(1)
+[2026-01-07 13:22:19.390] [1439] (audio_device_buffer.cc:217): SetRecordingChannels(2)
+[2026-01-07 13:22:19.390] [1439] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:480): SetMicrophoneVolume(255)
+[2026-01-07 13:22:19.390] [1439] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:753): PlayoutIsInitialized
+[2026-01-07 13:22:19.390] [1439] (webrtc_adm_helper.cpp:335): Completed: EnsurePlayoutStopped(1)
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:641): SetPlayoutDevice(0)
+[2026-01-07 13:22:19.390] [1439] (audio_device_impl.cc:545): StereoPlayoutIsAvailable
+[2026-01-07 13:22:19.391] [1439] (audio_device_impl.cc:552): output: 1
+[2026-01-07 13:22:19.391] [1439] (audio_device_impl.cc:557): SetStereoPlayout(1)
+[2026-01-07 13:22:19.391] [1439] (audio_device_buffer.cc:223): SetPlayoutChannels(2)
+[2026-01-07 13:22:20.884] [1259] JS console: [GatewaySocket] [FAST CONNECT] successfully took over websocket, state:
+[2026-01-07 13:22:20.884] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 1 ms
+[2026-01-07 13:22:21.269] [1259] JS console: [GatewaySocket] [READY] took 385ms, as dea41489554ed650a4175d23c27e6a3e
+[2026-01-07 13:22:21.706] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 823ms
+[2026-01-07 14:50:49.772] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.85 seconds.
+[2026-01-07 17:29:13.151] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:13.157] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.84 seconds.
+[2026-01-07 17:29:13.158] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:13.159] [1259] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+[2026-01-07 17:29:13.159] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:13.163] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.80 seconds.
+[2026-01-07 17:29:14.965] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:14.969] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.80 seconds.
+[2026-01-07 17:29:19.773] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:19.778] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 11.45 seconds.
+[2026-01-07 17:29:20.152] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:20.160] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.87 seconds.
+[2026-01-07 17:29:22.030] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:22.037] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.02 seconds.
+[2026-01-07 17:29:24.061] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 17:29:24.260] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 199 ms
+[2026-01-07 17:29:24.577] [1259] JS console: [GatewaySocket] [READY] took 516ms, as 72a51e1553f057db24c5c51ae854bf75
+[2026-01-07 17:29:24.862] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 800ms
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.150:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.41:50002
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.126:50002
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.180:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.201:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.179:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.216:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.164:50001
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.182:50002
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.220:50001
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.150:50001
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.123:50001
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.91:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.160:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.127:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.154:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.178:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.203:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.62:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.115:50003
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.82:50001
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.161:50002
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.133:50002
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.113:50004
+[2026-01-07 17:29:48.222] [7794] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.231:50004
+[2026-01-07 17:29:48.275] [7794] (region_latency_tester.cpp:314): Average RTT for region london is 49
+[2026-01-07 17:29:48.275] [7794] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 53
+[2026-01-07 17:29:48.275] [7794] (region_latency_tester.cpp:314): Average RTT for region paris is 49
+[2026-01-07 17:29:48.275] [7794] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 50
+[2026-01-07 17:29:48.275] [7794] (region_latency_tester.cpp:314): Average RTT for region milan is 49
+[2026-01-07 18:33:04.757] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 18:33:05.063] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 306 ms
+[2026-01-07 18:33:05.064] [1259] JS console: [GatewaySocket] [RESUME] resuming session 72a51e1553f057db24c5c51ae854bf75, seq: 164
+[2026-01-07 18:33:05.230] [1259] JS console: [GatewaySocket] [RESUMED] took 473ms, replayed 0 events, new seq: 165
+[2026-01-07 19:16:05.851] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 19:16:06.057] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 206 ms
+[2026-01-07 19:16:06.057] [1259] JS console: [GatewaySocket] [RESUME] resuming session 72a51e1553f057db24c5c51ae854bf75, seq: 285
+[2026-01-07 19:16:06.211] [1259] JS console: [GatewaySocket] [RESUMED] took 360ms, replayed 0 events, new seq: 286
+[2026-01-07 21:53:21.712] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-07 21:53:21.866] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 154 ms
+[2026-01-07 21:53:21.867] [1259] JS console: [GatewaySocket] [RESUME] resuming session 72a51e1553f057db24c5c51ae854bf75, seq: 713
+[2026-01-07 21:53:22.085] [1259] JS console: [GatewaySocket] [RESUMED] took 373ms, replayed 0 events, new seq: 714
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.48:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.159:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.233:50002
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.39:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.244:50002
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.214:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.185:50002
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.178:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.180:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.168:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.91:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.163:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.177:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.29:50002
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.67:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.154:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.149:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.101:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.94:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.22:50001
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.170:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.126:50003
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.86:50002
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.145:50004
+[2026-01-07 23:29:48.356] [13877] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.173:50001
+[2026-01-07 23:29:48.392] [13877] (region_latency_tester.cpp:314): Average RTT for region london is 11
+[2026-01-07 23:29:48.392] [13877] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 17.75
+[2026-01-07 23:29:48.392] [13877] (region_latency_tester.cpp:314): Average RTT for region paris is 20
+[2026-01-07 23:29:48.392] [13877] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 27
+[2026-01-07 23:29:48.392] [13877] (region_latency_tester.cpp:314): Average RTT for region milan is 35.25
+[2026-01-08 01:03:08.627] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 01:03:08.935] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 307 ms
+[2026-01-08 01:03:08.935] [1259] JS console: [GatewaySocket] [RESUME] resuming session 72a51e1553f057db24c5c51ae854bf75, seq: 1029
+[2026-01-08 01:03:09.089] [1259] JS console: [GatewaySocket] [RESUMED] took 461ms, replayed 0 events, new seq: 1030
+[2026-01-08 02:29:34.555] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.15 seconds.
+[2026-01-08 16:46:29.544] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:29.545] [1259] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+[2026-01-08 16:46:29.545] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:29.551] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.13 seconds.
+[2026-01-08 16:46:31.679] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:31.683] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.73 seconds.
+[2026-01-08 16:46:36.022] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:36.025] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.82 seconds.
+[2026-01-08 16:46:38.846] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:38.852] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.26 seconds.
+[2026-01-08 16:46:45.110] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 16:46:45.377] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 267 ms
+[2026-01-08 16:46:45.920] [1259] JS console: [GatewaySocket] [READY] took 810ms, as 74c5e879584b90d0232df26bd4ec47ca
+[2026-01-08 16:46:46.142] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1032ms
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.126:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.90:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.244:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.93:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.183:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.226:50003
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.217:50003
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.177:50002
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.174:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.179:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.51:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.91:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.107:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.163:50003
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.174:50002
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.254:50003
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.203:50002
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.62:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.149:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.18:50002
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.15:50001
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.51:50002
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.92:50004
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.78:50003
+[2026-01-08 16:47:18.661] [18223] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.156:50003
+[2026-01-08 16:47:18.702] [18223] (region_latency_tester.cpp:314): Average RTT for region london is 10
+[2026-01-08 16:47:18.702] [18223] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 22
+[2026-01-08 16:47:18.702] [18223] (region_latency_tester.cpp:314): Average RTT for region paris is 18
+[2026-01-08 16:47:18.702] [18223] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 26
+[2026-01-08 16:47:18.702] [18223] (region_latency_tester.cpp:314): Average RTT for region milan is 34
+[2026-01-08 17:02:43.128] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.49 seconds.
+[2026-01-08 17:02:45.614] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 17:02:45.893] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 279 ms
+[2026-01-08 17:02:45.893] [1259] JS console: [GatewaySocket] [RESUME] resuming session 74c5e879584b90d0232df26bd4ec47ca, seq: 31
+[2026-01-08 17:02:46.052] [1259] JS console: [GatewaySocket] [RESUMED] took 437ms, replayed 0 events, new seq: 32
+[2026-01-08 18:07:21.194] [1259] JS console: [GatewaySocket] [ACK TIMEOUT] reconnecting in 1.42 seconds.
+[2026-01-08 18:07:22.610] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 18:07:37.654] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.11 seconds.
+[2026-01-08 18:07:40.765] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 18:07:44.179] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 3414 ms
+[2026-01-08 18:07:44.179] [1259] JS console: [GatewaySocket] [RESUME] resuming session 74c5e879584b90d0232df26bd4ec47ca, seq: 333
+[2026-01-08 18:07:44.416] [1259] JS console: [GatewaySocket] [RESUMED] took 3650ms, replayed 0 events, new seq: 335
+[2026-01-08 21:08:08.560] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.48 seconds.
+[2026-01-08 21:08:11.039] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 21:08:11.431] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 392 ms
+[2026-01-08 21:08:11.432] [1259] JS console: [GatewaySocket] [RESUME] resuming session 74c5e879584b90d0232df26bd4ec47ca, seq: 897
+[2026-01-08 21:08:11.591] [1259] JS console: [GatewaySocket] [RESUMED] took 552ms, replayed 0 events, new seq: 898
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.132:50002
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.201:50002
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.23:50001
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.72:50003
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.196:50004
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.203:50002
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.191:50004
+[2026-01-08 22:47:18.578] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.172:50003
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.216:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.164:50002
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.148:50004
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.176:50002
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.171:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.100:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.160:50004
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.137:50002
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.7:50004
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.2:50003
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.215:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.111:50002
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.78:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.175:50002
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.231:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.146:50001
+[2026-01-08 22:47:18.579] [25759] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.184:50004
+[2026-01-08 22:47:18.618] [25759] (region_latency_tester.cpp:314): Average RTT for region london is 31
+[2026-01-08 22:47:18.618] [25759] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 35
+[2026-01-08 22:47:18.618] [25759] (region_latency_tester.cpp:314): Average RTT for region paris is 31.25
+[2026-01-08 22:47:18.618] [25759] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 32
+[2026-01-08 22:47:18.618] [25759] (region_latency_tester.cpp:314): Average RTT for region milan is 36
+[2026-01-08 23:07:09.011] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-08 23:07:09.216] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 205 ms
+[2026-01-08 23:07:09.217] [1259] JS console: [GatewaySocket] [RESUME] resuming session 74c5e879584b90d0232df26bd4ec47ca, seq: 1044
+[2026-01-08 23:07:09.430] [1259] JS console: [GatewaySocket] [RESUMED] took 419ms, replayed 0 events, new seq: 1045
+[2026-01-09 02:50:18.034] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 02:50:18.343] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 308 ms
+[2026-01-09 02:50:18.343] [1259] JS console: [GatewaySocket] [RESUME] resuming session 74c5e879584b90d0232df26bd4ec47ca, seq: 1452
+[2026-01-09 02:50:18.496] [1259] JS console: [GatewaySocket] [RESUMED] took 461ms, replayed 0 events, new seq: 1453
+[2026-01-09 03:36:34.799] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.83 seconds.
+[2026-01-09 12:43:20.557] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:20.558] [1259] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+[2026-01-09 12:43:20.558] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:20.562] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.60 seconds.
+[2026-01-09 12:43:22.165] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:22.170] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.81 seconds.
+[2026-01-09 12:43:25.984] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:25.992] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 6.80 seconds.
+[2026-01-09 12:43:26.954] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:26.958] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.45 seconds.
+[2026-01-09 12:43:28.406] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:28.411] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.40 seconds.
+[2026-01-09 12:43:31.808] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 12:43:31.980] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 172 ms
+[2026-01-09 12:43:32.325] [1259] JS console: [GatewaySocket] [READY] took 517ms, as b7024a04af5bb1d14c3e861176cfb40d
+[2026-01-09 12:43:32.539] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 731ms
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.2:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.7:50001
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.226:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.214:50002
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.138:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.186:50002
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.179:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.174:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.209:50001
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.228:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.150:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.179:50002
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.45:50001
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.20:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.91:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.105:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.62:50001
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.110:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.110:50002
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.64:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.218:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.145:50003
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.26:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.58:50004
+[2026-01-09 12:44:01.952] [29927] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.166:50002
+[2026-01-09 12:44:01.989] [29927] (region_latency_tester.cpp:314): Average RTT for region london is 11.25
+[2026-01-09 12:44:01.989] [29927] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 25
+[2026-01-09 12:44:01.989] [29927] (region_latency_tester.cpp:314): Average RTT for region paris is 34
+[2026-01-09 12:44:01.989] [29927] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 27.25
+[2026-01-09 12:44:01.989] [29927] (region_latency_tester.cpp:314): Average RTT for region milan is 34
+[2026-01-09 13:33:51.473] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 13:33:51.665] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 192 ms
+[2026-01-09 13:33:51.666] [1259] JS console: [GatewaySocket] [RESUME] resuming session b7024a04af5bb1d14c3e861176cfb40d, seq: 69
+[2026-01-09 13:33:51.839] [1259] JS console: [GatewaySocket] [RESUMED] took 366ms, replayed 0 events, new seq: 70
+[2026-01-09 17:03:07.561] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 17:03:07.768] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 206 ms
+[2026-01-09 17:03:07.768] [1259] JS console: [GatewaySocket] [RESUME] resuming session b7024a04af5bb1d14c3e861176cfb40d, seq: 384
+[2026-01-09 17:03:07.921] [1259] JS console: [GatewaySocket] [RESUMED] took 360ms, replayed 0 events, new seq: 385
+[2026-01-09 18:08:19.765] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.27 seconds.
+[2026-01-09 18:08:21.033] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 18:08:21.185] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 151 ms
+[2026-01-09 18:08:21.185] [1259] JS console: [GatewaySocket] [RESUME] resuming session b7024a04af5bb1d14c3e861176cfb40d, seq: 599
+[2026-01-09 18:08:21.369] [1259] JS console: [GatewaySocket] [RESUMED] took 336ms, replayed 0 events, new seq: 600
+[2026-01-09 18:28:23.560] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.09 seconds.
+[2026-01-09 18:28:24.647] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 18:28:24.892] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 244 ms
+[2026-01-09 18:28:24.892] [1259] JS console: [GatewaySocket] [RESUME] resuming session b7024a04af5bb1d14c3e861176cfb40d, seq: 630
+[2026-01-09 18:28:25.044] [1259] JS console: [GatewaySocket] [RESUMED] took 397ms, replayed 0 events, new seq: 631
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.55:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.171:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.224:50002
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.39:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.190:50002
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.166:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.168:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.187:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.184:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.222:50004
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.127:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.181:50004
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.35:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.157:50002
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.174:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.45:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.105:50004
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.62:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.166:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.100:50004
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.156:50001
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.164:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.17:50004
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.149:50003
+[2026-01-09 18:44:01.972] [34924] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.44:50004
+[2026-01-09 18:44:02.055] [34924] (region_latency_tester.cpp:314): Average RTT for region london is 83
+[2026-01-09 18:44:02.055] [34924] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 83
+[2026-01-09 18:44:02.055] [34924] (region_latency_tester.cpp:314): Average RTT for region paris is 83
+[2026-01-09 18:44:02.055] [34924] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 83
+[2026-01-09 18:44:02.055] [34924] (region_latency_tester.cpp:314): Average RTT for region milan is 83
+[2026-01-09 21:02:18.497] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-09 21:02:18.650] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 153 ms
+[2026-01-09 21:02:18.650] [1259] JS console: [GatewaySocket] [RESUME] resuming session b7024a04af5bb1d14c3e861176cfb40d, seq: 823
+[2026-01-09 21:02:18.801] [1259] JS console: [GatewaySocket] [RESUMED] took 304ms, replayed 0 events, new seq: 824
+[2026-01-09 22:13:39.278] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 1.25 seconds.
+[2026-01-10 16:17:32.570] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:32.575] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.06 seconds.
+[2026-01-10 16:17:32.577] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:32.578] [1259] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+[2026-01-10 16:17:32.578] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:32.583] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.23 seconds.
+[2026-01-10 16:17:34.810] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:34.815] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.23 seconds.
+[2026-01-10 16:17:38.709] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:38.714] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.27 seconds.
+[2026-01-10 16:17:39.988] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:39.995] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.61 seconds.
+[2026-01-10 16:17:41.602] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:41.609] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.52 seconds.
+[2026-01-10 16:17:45.131] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 16:17:45.371] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 240 ms
+[2026-01-10 16:17:45.727] [1259] JS console: [GatewaySocket] [READY] took 596ms, as fd11f3a3daa2e3468bb265eba7c89a7d
+[2026-01-10 16:17:45.943] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 812ms
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.150:50002
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.237:50002
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.19:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.41:50001
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.78:50002
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.201:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.216:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.195:50002
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.238:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.217:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.179:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.91:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.8:50001
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.144:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.75:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.64:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.75:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.137:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.193:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.111:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.156:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.158:50004
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.15:50001
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.51:50003
+[2026-01-10 16:18:03.067] [37310] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.58:50002
+[2026-01-10 16:18:03.107] [37310] (region_latency_tester.cpp:314): Average RTT for region london is 11.25
+[2026-01-10 16:18:03.107] [37310] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 23
+[2026-01-10 16:18:03.107] [37310] (region_latency_tester.cpp:314): Average RTT for region paris is 17
+[2026-01-10 16:18:03.107] [37310] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 26
+[2026-01-10 16:18:03.107] [37310] (region_latency_tester.cpp:314): Average RTT for region milan is 33
+[2026-01-10 17:39:07.570] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 17:39:07.776] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 206 ms
+[2026-01-10 17:39:07.776] [1259] JS console: [GatewaySocket] [RESUME] resuming session fd11f3a3daa2e3468bb265eba7c89a7d, seq: 145
+[2026-01-10 17:39:07.930] [1259] JS console: [GatewaySocket] [RESUMED] took 360ms, replayed 0 events, new seq: 146
+[2026-01-10 18:10:50.690] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 18:10:50.983] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 291 ms
+[2026-01-10 18:10:50.983] [1259] JS console: [GatewaySocket] [RESUME] resuming session fd11f3a3daa2e3468bb265eba7c89a7d, seq: 232
+[2026-01-10 18:10:51.145] [1259] JS console: [GatewaySocket] [RESUMED] took 452ms, replayed 0 events, new seq: 233
+[2026-01-10 19:30:30.878] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-10 19:30:31.277] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 397 ms
+[2026-01-10 19:30:31.277] [1259] JS console: [GatewaySocket] [RESUME] resuming session fd11f3a3daa2e3468bb265eba7c89a7d, seq: 514
+[2026-01-10 19:30:31.509] [1259] JS console: [GatewaySocket] [RESUMED] took 629ms, replayed 0 events, new seq: 515
+[2026-01-10 22:13:06.997] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 1006, ) retrying in 2.71 seconds.
+[2026-01-11 00:24:59.646] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:24:59.647] [1259] JS console: [GatewaySocket] [WS CLOSED] (true, 0, power monitor resumed) retrying immediately.
+[2026-01-11 00:24:59.647] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:24:59.792] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.50 seconds.
+[2026-01-11 00:25:01.292] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:25:01.297] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.74 seconds.
+[2026-01-11 00:25:04.037] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:25:04.041] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 4.43 seconds.
+[2026-01-11 00:25:06.484] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:25:06.489] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.99 seconds.
+[2026-01-11 00:25:08.480] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:25:08.486] [1259] JS console: [GatewaySocket] [WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.85 seconds.
+[2026-01-11 00:25:12.332] [1259] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-11 00:25:12.576] [1259] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 244 ms
+[2026-01-11 00:25:13.016] [1259] JS console: [GatewaySocket] [READY] took 684ms, as 192d07f8c3ed0862962eff4d553387d9
+[2026-01-11 00:25:13.499] [1259] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1167ms
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.138:50003
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.12:50004
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.93:50003
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.126:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.237:50004
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.217:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.190:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.240:50004
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.173:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.209:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.123:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.176:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.100:50004
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.158:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.163:50003
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.62:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.111:50003
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.50:50003
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.178:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.22:50004
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.63:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.51:50001
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.15:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.252:50002
+[2026-01-11 00:25:45.974] [44638] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.184:50002
+[2026-01-11 00:25:46.013] [44638] (region_latency_tester.cpp:314): Average RTT for region london is 12.75
+[2026-01-11 00:25:46.013] [44638] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 22
+[2026-01-11 00:25:46.013] [44638] (region_latency_tester.cpp:314): Average RTT for region paris is 21
+[2026-01-11 00:25:46.013] [44638] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 26
+[2026-01-11 00:25:46.013] [44638] (region_latency_tester.cpp:314): Average RTT for region milan is 34

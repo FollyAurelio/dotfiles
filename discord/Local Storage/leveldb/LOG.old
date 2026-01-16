@@ -1,0 +1,29 @@
+2026/01/07-13:22:15.675 375 Reusing MANIFEST /home/pancake/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2026/01/07-13:22:15.691 375 Recovering log #1857
+2026/01/07-13:22:15.692 375 Reusing old log /home/pancake/.config/discord/Local Storage/leveldb/001857.log 
+2026/01/07-13:33:10.291 376 Level-0 table #1861: started
+2026/01/07-13:33:10.333 376 Level-0 table #1861: 4265214 bytes OK
+2026/01/07-13:33:10.336 376 Delete type=0 #1857
+2026/01/08-16:47:23.704 376 Level-0 table #1863: started
+2026/01/08-16:47:23.747 376 Level-0 table #1863: 4279221 bytes OK
+2026/01/08-16:47:23.749 376 Delete type=0 #1860
+2026/01/09-12:44:06.992 376 Level-0 table #1865: started
+2026/01/09-12:44:06.997 376 Level-0 table #1865: 44780 bytes OK
+2026/01/09-12:44:07.000 376 Delete type=0 #1862
+2026/01/09-12:44:07.001 376 Compacting 4@0 + 2@1 files
+2026/01/09-12:44:07.073 376 Generated table #1866@0: 38 keys, 4248295 bytes
+2026/01/09-12:44:07.094 376 Generated table #1867@0: 123 keys, 1155451 bytes
+2026/01/09-12:44:07.094 376 Compacted 4@0 + 2@1 files => 5403746 bytes
+2026/01/09-12:44:07.097 376 compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/01/09-12:44:07.097 376 Delete type=2 #1855
+2026/01/09-12:44:07.097 376 Delete type=2 #1865
+2026/01/09-12:44:07.098 376 Delete type=2 #1856
+2026/01/09-12:44:07.098 376 Delete type=2 #1861
+2026/01/09-12:44:07.098 376 Delete type=2 #1863
+2026/01/09-12:44:07.098 376 Delete type=2 #1858
+2026/01/09-17:06:39.620 376 Level-0 table #1869: started
+2026/01/09-17:06:39.659 376 Level-0 table #1869: 4245567 bytes OK
+2026/01/09-17:06:39.662 376 Delete type=0 #1864
+2026/01/10-21:02:42.658 376 Level-0 table #1871: started
+2026/01/10-21:02:42.694 376 Level-0 table #1871: 4280633 bytes OK
+2026/01/10-21:02:42.698 376 Delete type=0 #1868

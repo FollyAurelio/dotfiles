@@ -1,0 +1,22 @@
+2025-11-24 19:02:15.255 [info] Started local extension host with pid 753726.
+2025-11-24 19:02:17.053 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-11-24 19:02:17.183 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-11-24 19:02:18.115 [info] [perf] Render performance baseline is 149ms
+2025-11-24 19:02:19.402 [error] Canceled: Canceled
+    at K0 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37249
+    at Array.forEach (<anonymous>)
+    at nLt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37189)
+    at ZRe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:48866)
+    at agn.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7731)
+    at ogn.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7033)
+    at async Wkt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3820:15899)
+2025-11-24 19:02:19.403 [error] Canceled: Canceled
+    at K0 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1282)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37249
+    at Array.forEach (<anonymous>)
+    at nLt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:37189)
+    at ZRe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3814:48866)
+    at agn.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7731)
+    at ogn.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3821:7033)
+    at async Wkt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3820:15899)
