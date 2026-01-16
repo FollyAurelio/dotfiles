@@ -1361,3 +1361,10 @@ Render pre processor: 0
 [2026-01-16 21:30:51.936] [1396] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 252 ms
 [2026-01-16 21:30:51.936] [1396] JS console: [GatewaySocket] [RESUME] resuming session 4f83a174a144bad6acfbabee00096b30, seq: 1154
 [2026-01-16 21:30:52.198] [1396] JS console: [GatewaySocket] [RESUMED] took 514ms, replayed 0 events, new seq: 1155
+[2026-01-16 22:57:09.177] [1396] JS console: [GatewaySocket] [WS CLOSED] (true, 4003, Not authenticated.) retrying in 2.15 seconds.
+[2026-01-16 22:57:11.328] [1396] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-16 22:57:11.533] [1396] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 204 ms
+[2026-01-16 22:57:11.533] [1396] JS console: [GatewaySocket] [RESUME] resuming session 4f83a174a144bad6acfbabee00096b30, seq: 1428
+[2026-01-16 22:57:11.634] [1396] JS console: [GatewaySocket] [INVALID_SESSION]
+[2026-01-16 22:57:11.763] [1396] JS console: [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
+[2026-01-16 22:57:11.763] [1396] JS console: [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
