@@ -262,3 +262,5 @@ exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 exec_always --no-startup-id xset b off
 #start dunst
 exec_always --no-startup-id dunst
+#start automatic tmux session script
+exec ~/tmuxinit.sh engine ./Documents

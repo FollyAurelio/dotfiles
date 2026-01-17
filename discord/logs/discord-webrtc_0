@@ -1368,3 +1368,42 @@ Render pre processor: 0
 [2026-01-16 22:57:11.634] [1396] JS console: [GatewaySocket] [INVALID_SESSION]
 [2026-01-16 22:57:11.763] [1396] JS console: [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
 [2026-01-16 22:57:11.763] [1396] JS console: [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
+[2026-01-16 23:06:39.069] [1396] JS console: [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2026-01-16 23:06:39.237] [1396] JS console: [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 168 ms
+[2026-01-16 23:06:39.674] [1396] JS console: [GatewaySocket] [READY] took 605ms, as 1256a3c622f1b0419940b8369989c4e5
+[2026-01-16 23:06:40.080] [1396] JS console: [GatewaySocket] [READY_SUPPLEMENTAL] took 1011ms
+[2026-01-16 23:06:44.382] [119339] (region_latency_tester.cpp:73): Sending 5 latency test pings to region london
+[2026-01-16 23:06:44.382] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.65:50003
+[2026-01-16 23:06:44.382] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.112:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.214:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.237:50003
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.48:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:73): Sending 5 latency test pings to region rotterdam
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.169:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.224:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.190:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.182:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.155.195:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:73): Sending 5 latency test pings to region paris
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.8:50003
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.54:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.157:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.127:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.29:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:73): Sending 5 latency test pings to region frankfurt
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.110:50003
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.149:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.31:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.87:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.148.242:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:73): Sending 5 latency test pings to region milan
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.6:50004
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.150.173:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.39:50002
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.206:50001
+[2026-01-16 23:06:44.383] [119339] (region_latency_tester.cpp:138): Sending latency test ping to IP 104.29.149.146:50003
+[2026-01-16 23:06:44.457] [119339] (region_latency_tester.cpp:314): Average RTT for region london is 74
+[2026-01-16 23:06:44.457] [119339] (region_latency_tester.cpp:314): Average RTT for region rotterdam is 74
+[2026-01-16 23:06:44.457] [119339] (region_latency_tester.cpp:314): Average RTT for region paris is 74
+[2026-01-16 23:06:44.457] [119339] (region_latency_tester.cpp:314): Average RTT for region frankfurt is 74
+[2026-01-16 23:06:44.457] [119339] (region_latency_tester.cpp:314): Average RTT for region milan is 74
