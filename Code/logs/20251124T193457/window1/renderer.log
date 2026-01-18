@@ -1,6 +1,0 @@
-2025-11-24 19:34:59.469 [info] Started local extension host with pid 16834.
-2025-11-24 19:34:59.754 [error] [/home/pancake/.vscode/extensions/github.copilot-chat-0.32.5]: This extension is using the API proposals 'chatParticipantPrivate', 'languageModelDataPart' and 'chatSessionsProvider' that are not compatible with the current version of VS Code.
-2025-11-24 19:35:01.447 [info] MCP Registry configured: https://api.mcp.github.com
-2025-11-24 19:35:01.583 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2025-11-24 19:35:02.484 [info] Auto updating outdated extensions. github.copilot-chat
-2025-11-24 19:35:02.900 [info] [perf] Render performance baseline is 151ms
